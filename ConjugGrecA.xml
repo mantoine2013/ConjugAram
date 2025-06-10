@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lexique grec ancien -->
+
+<lexique  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugLat.xsd'>
+    <verbgra forme="παιδεύω"><usage>éduquer</usage></verbgra>    
+    <verbgra forme="ειναι">
+        <déclinaison mode="Indicatif" thème="Futur" personne="1è. s.">ἔσομαι</déclinaison>
+        <déclinaison mode="Indicatif" thème="Futur" personne="2è. s.">ἔσει / ἔσῃ</déclinaison>
+        <déclinaison mode="Indicatif" thème="Futur" personne="3è. s.">ἔσται</déclinaison>
+        <déclinaison mode="Indicatif" thème="Futur" personne="1è. p.">ἐσόμεθα</déclinaison>
+        <déclinaison mode="Indicatif" thème="Futur" personne="2è. p.">ἔσεσθε</déclinaison>
+        <déclinaison mode="Indicatif" thème="Futur" personne="3è. p.">ἔσονται</déclinaison>
+        <usage>être</usage>
+    </verbgra>    
+    <autremot forme="ἄγκυρα ας f"><usage>ancre</usage></autremot>
+    <autremot forme="ἀγρός ου m"><usage>champ</usage></autremot>
+    <autremot forme="ἄνθρωπος ου m"><usage>homme</usage></autremot>
+    <autremot forme="γλῶττα ης f"><usage>langue</usage></autremot>
+    <autremot forme="δοῦλος ου m"><usage>esclave</usage></autremot>
+    <autremot forme="δῶρον ου n"><usage>cadeau</usage></autremot>
+    <autremot forme="θάλασσα ης f"><usage>maison</usage></autremot>
+    <autremot forme="θεός ου m"><usage>dieu</usage></autremot>
+    <autremot forme="θεᾱ ας f"><usage>déesse</usage></autremot>
+    <autremot forme="κεφᾰλή ης f"><usage>tête</usage></autremot>
+    <autremot forme="λόγος ου m"><usage>parole</usage></autremot>
+    <autremot forme="νεανία ου m"><usage>jeune homme</usage></autremot>
+    <autremot forme="νύµφη ης f"><usage>nymphe</usage></autremot>
+    <autremot forme="οἰκίᾱ ας f"><usage>maison</usage></autremot>
+    <autremot forme="ἡμέρα ας f"><usage>jour</usage></autremot>
+    <autremot forme="ἵππος ου m"><usage>cheval</usage></autremot>
+    <autremot forme="καρπός ου m"><usage>fruit</usage></autremot>
+    <autremot forme="κόραξ ος m"><usage>corbeau</usage></autremot>
+    <autremot forme="Ταῦρος ου m"><usage>taureau</usage></autremot>
+    <autremot forme="κίνδυνος ου m"><usage>péril</usage></autremot>
+    <autremot forme="χρόνος ου m"><usage>temps</usage></autremot>
+    <autremot forme="νομός οῦ m"><usage>loi</usage></autremot>
+    <autremot forme="φάρμακον ου n"><usage>poison/remède</usage></autremot>
+    
+</lexique>
+

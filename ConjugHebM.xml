@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugHebib.xsd'>
+
+
+    <entrée racine="dlk"><verhm schème="Hifil" infinitif="דלק"><usage>brûler/allumer</usage></verhm></entrée>
+    <entrée racine="sbr">
+        <verhm schème="Hifil" infinitif="סבר"><usage>expliquer</usage></verhm>
+    </entrée>
+    <entrée racine="zmn">
+        <verhm schème="Hifil" infinitif="זמן"><usage>commander/inviter</usage></verhm>
+    </entrée>
+    <entrée racine="thl">
+        <verhm schème="Hifil" infinitif="תחל"><usage>commencer</usage></verhm>
+    </entrée>
+    <entrée racine="ktb">
+        <verbar forme="1" infinitif="كتب">  <usage>écrire</usage>       </verbar>
+        <verhm infinitif="כתב">            <usage schème="Hifil">dicter</usage>       </verhm>
+        <verhm infinitif="כתב">            <usage schème="Paal">écrire</usage>       </verhm>
+        <verhm infinitif="כתב">            <usage schème="Hitpael">correspondre</usage> </verhm>
+    </entrée>
+    
+    <entrée racine="שחה ">
+        <verhm schème="Paal" infinitif="שׂחה">
+            <usage>nager</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="בוא">
+        <verhm schème="Paal" infinitif="בוא">
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM1S">בא</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HMMS">בא</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HMMS">בא</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HMMS">בא</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM2FS">באה</déclinaison>
+        <usage>venir</usage>
+        </verhm>
+    </entrée>
+        
+    <entrée racine="sth"><verhm infinitif="שתה">            <usage schème="Paal">boire</usage>        </verhm>    </entrée>
+    
+    <entrée racine="sth">
+        <verhm infinitif="החוצה">
+            <usage schème="Paal">sortir</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="רצה">
+        <verhm infinitif="רצֶה">
+            <usage schème="Paal">vouloir</usage>
+        </verhm>
+    </entrée> 
+    <entrée racine="kbl">
+        <verhm infinitif="קבל">
+            <usage schème="Piel">accepter/recevoir</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="hps">
+        <verhm infinitif="חפש">
+            <usage schème="Piel">chercher</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="bdk"><verhm infinitif="בדק"><usage schème="Paal">vérifier</usage></verhm></entrée>
+    <entrée racine="zhr"><verhm infinitif="זכר"><usage schème="Paal">se souvenir</usage></verhm></entrée>
+    <entrée racine="ktv">
+        <verbar forme="1" infinitif="كتب">  <usage>écrire</usage>       </verbar>
+        <verhm infinitif="כתב">            <usage schème="Hifil">dicter</usage>       </verhm>
+        <verhm infinitif="כתב">            <usage schème="Paal">écrire</usage>       </verhm>
+        <verhm infinitif="כתב">            <usage schème="Hitpael">correspondre</usage> </verhm>
+    </entrée>
+    <entrée racine="lmd">
+        <verhm infinitif="למֵד">
+            <usage schème="Paal">apprendre/étudier</usage>
+            <usage schème="Piel">enseigner</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="mdb"><verhm infinitif="דבר"><usage schème="Piel">parler</usage></verhm></entrée> 
+    <entrée racine="spr"><verhm infinitif="ספד"><usage schème="Piel">raconter</usage></verhm></entrée>
+
+    <entrée racine="qnh"><verhm infinitif="קנה"><usage schème="Paal">acheter</usage></verhm></entrée>
+<!--
+    <entrée racine="qnh"><verhm infinitif="בנה"><usage schème="Paal">construire</usage></verhm></entrée>
+    <entrée racine="ysb"><verhm infinitif="ישב"><usage schème="Paal">s'asseoir</usage></verhm></entrée>
+    <entrée racine="yrd"><verhm infinitif="ירד"><usage schème="Paal">descendre</usage></verhm></entrée>
+    
+    <entrée racine="עיף">
+        <verhm schème="Piel" infinitif="עיף">
+        <usage>fatiguer</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="qḏš">
+        <verhm infinitif="עלַפ"ֹ>
+            <usage>agir / travailler</usage>
+        </verhm>       
+    </entrée>
+    <entrée racine="lmd">
+        <verhm schème="Paal" infinitif="נכנס">
+            <usage>entrer</usage>
+        </verhm>
+    </entrée>
+    <entrée racine="עבר">
+        <verhm infinitif="עָבַר">
+            <usage>passer / traverser</usage>
+        </verhm>
+    </entrée>
+        <entrée racine="qṭl">
+        <verhm infinitif="קטל">
+            <usage>tuer</usage>
+        </verhm>       
+    </entrée>
+    <entrée racine="qḏš">
+        <verhm infinitif="קדשׁ">
+            <usage>sanctifier</usage>
+        </verhm>       
+    </entrée>
+    
+    <entrée racine="אכל">
+        <verhm infinitif="קטל">
+            <usage>manger</usage>
+        </verhm>       
+    </entrée>
+    <entrée racine="גור">
+        <verhm schème="Paal" infinitif="גור"></verhm>
+        <usage>habiter</usage>
+    </entrée>
+    <entrée racine="זמן">
+        <verhm schème="Piel" usage="inviter"></verhm>       
+    </entrée>
+    <entrée racine="היה">
+        <verhm schème="Paal" infinitif="היה">
+            <déclinaison temps="présent"></déclinaison>            
+            <déclinaison temps="passé" forme="simple" voix="active" personne="1è. p. s.">הָיִיתִי</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="2è. m. s.">הָיִיתָ</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="3è. m. s.">הָיָה</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="1è. p. p.">הָיִינוּ</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="2è. m. p.">הֲיִיתֶם</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="3è. p. p.">היו</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="2è. f. s.">הײת</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="3è. f. s.">היתה</déclinaison>
+            <déclinaison temps="passé" forme="simple" voix="active" personne="2è. f. p.">הײתן</déclinaison>
+        </verhm>
+        <usage>être</usage>
+    </entrée>
+    <entrée racine="ישב">
+        <verhm schème="Paal" infinitif="ישב"></verhm>
+        <usage>s'asseoir</usage>
+    </entrée>
+
+    <entrée racine="עזר">
+        <verhm schème="Paal" infinitif="עזר"></verhm>
+        <usage>aider</usage>
+    </entrée>
+    <entrée racine="צרך">
+        <verhm schème="Paal" infinitif="צרך" Présent="54"></verhm>
+        <usage>avoir besoin</usage>
+    </entrée>
+    <entrée racine="פגש">
+        <verhm schème="Paal"></verhm>
+        <usage>rencontrer</usage>
+    </entrée>
+    <entrée racine="שׂחק">
+        <verhm schème="Piel" infinitif="שׂחק"></verhm>
+        <usage>jouer</usage>
+    </entrée>
+    <entrée racine="צלם">
+        <verhm schème="Piel" infinitif="צַלֵם"></verhm>
+        <usage>photographier</usage>
+    </entrée>
+    <entrée racine="יכל">
+        <verhm schème="Paal" infinitif="יכל">
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HMMS">יָכוֹל</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HMFS">יְכוֹלָה</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM1MP">יְכוֹלִים</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM1FP">יְכוֹלִוֹת</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM2MP">יְכוֹלִים</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM2FP">יְכוֹלִוֹת</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM3MP">יְכוֹלִים</déclinaison>
+            <déclinaison temps="présent" forme="simple" voix="active" personne="HM3FP">יְכוֹלִוֹת</déclinaison>
+        </verhm>
+        <usage>pouvoir</usage>
+    </entrée>
+    <entrée racine="נפל">
+        <verhm schème="Paal" infinitif="נפל"></verhm>
+        <usage>tomber</usage>
+    </entrée>
+    <entrée racine="עבד">
+        <verhm schème="Paal" infinitif="עבד"></verhm>
+        <usage>travailler</usage>
+    </entrée>
+    <entrée racine="ראה">
+        <verhm schème="Paal" infinitif="ראה"></verhm>
+        <usage>voir</usage>
+    </entrée>
+    <entrée racine="טוס">
+        <verhm schème="Paal" infinitif="טָוס"></verhm>
+        <usage>voler en avion</usage>
+    </entrée>
+    <entrée racine="טיל">
+        <verhm schème="Piel" infinitif="טיל"></verhm>
+        <usage>promener</usage>
+    </entrée>
+    <entrée racine="אְרָק">
+        <verhm schème="Paal" infinitif="אְרָק"></verhm>
+        <usage>lire</usage>
+    </entrée>
+    <entrée racine="הלך">
+        <verhm schème="Paal" infinitif="הלֵך"></verhm>
+        <usage>marcher / aller</usage>
+    </entrée>
+    <entrée racine="רגל">
+        <verhm schème="Hitpael" infinitif="רגל"></verhm>
+        <usage>s'habituer</usage>
+    </entrée>
+    <entrée racine="קשב">
+        <verhm schème="Hifil" usage="écouter"></verhm>
+    </entrée>
+    <entrée racine="רגש">
+        <verhm schème="Hitpael" infinitif="רגש"></verhm>
+        <usage>s'émouvoir</usage>
+    </entrée>
+    <entrée racine="רחצ">
+        <verhm schème="Hitpael"></verhm>
+        <usage>se baigner</usage>
+    </entrée>
+    <entrée racine="שיר">
+        <verhm schème="Paal" infinitif="שיר"></verhm>
+        <usage>chanter</usage>
+    </entrée> -->
+</lexique>

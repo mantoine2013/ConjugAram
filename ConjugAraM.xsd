@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="usage"  type="xsd:string"/>         
+ <xsd:attribute name="forme" type="xsd:string"/>
+ <xsd:attribute name="racine" type="xsd:string"/>
+    
+<xsd:element name="lexique">
+    <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="entrée" maxOccurs="unbounded">
+                <xsd:complexType>
+                     <xsd:sequence>            
+                        <xsd:element name="verbe" maxOccurs="unbounded">         
+                             <xsd:complexType>
+                                 <xsd:sequence>     
+                                    <xsd:element ref="usage"/>         
+                                 </xsd:sequence>                
+                            </xsd:complexType>
+                        </xsd:element> 
+                      </xsd:sequence>                
+                        <xsd:attribute ref="forme"/>
+                        <xsd:attribute ref="racine"/>
+                   </xsd:complexType>
+               </xsd:element>
+             </xsd:sequence>                
+                <xsd:attribute ref="racine"/>
+        </xsd:complexType>
+ </xsd:element>
+ </xsd:schema>

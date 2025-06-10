@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugLat.xsd'>
+    <autremot forme="acies +ei f"><usage>le regard</usage></autremot>
+    <autremot forme="ager agri m"><usage>le champ</usage></autremot>
+    <autremot forme="amica +æ f"><usage>l'amie</usage></autremot>
+    <autremot forme="amicus +ī m"><usage>ami</usage></autremot>
+    <autremot forme="amor æ m"><usage>amour</usage></autremot>
+    <autremot forme="aqua +æ f"><usage>l'eau</usage></autremot>
+    <autremot forme="ara +æ f"><usage>l'autel</usage></autremot>
+    <autremot forme="bellum +ī n"><usage>la guerre</usage></autremot>
+    <autremot forme="campus +ī m"><usage>plaine</usage></autremot>
+    <autremot forme="caelum i n"><usage>le ciel</usage></autremot>
+    <autremot forme="causa +æ f"><usage>la cause</usage></autremot>
+    <autremot forme="chaos i n"><usage>chaos</usage></autremot>
+    <autremot forme="cīvis cīvis m"><usage>citoyen</usage></autremot>
+    <autremot forme="class +is, f"><usage>la flotte</usage></autremot>
+    <autremot forme="consul +is m"><usage>consul</usage></autremot>
+    <autremot forme="copia +æ f"><usage>l'abondance</usage></autremot>
+    <autremot forme="corpus +is n"><usage>le corps</usage></autremot>
+    <autremot forme="cornu +us n"><usage>le corps</usage></autremot>
+    <autremot forme="cultus +us m"><usage>la culture</usage></autremot>
+    <autremot forme="cura +æ f"><usage>le soin/souci</usage></autremot>
+    <autremot forme="cursus +us m"><usage>la course</usage></autremot>
+    <autremot forme="dea +æ f"><usage>la déesse</usage></autremot>
+    <autremot forme="deus i m"><usage>le dieu</usage></autremot>
+    <autremot forme="domina +æ f"><usage>la maîtresse</usage></autremot>
+    <autremot forme="dominus +ī m"><usage>le maître</usage></autremot>
+    <autremot forme="epistula +æ f"><usage>la lettre</usage></autremot>
+    <autremot forme="equus +ī m"><usage>cheval</usage></autremot>
+    <autremot forme="exercitus +us m"><usage>l'armée</usage></autremot>
+    <autremot forme="fabula +æ f"><usage>la légende</usage></autremot>
+    <autremot forme="fama +æ f"><usage>rumeur / réputation</usage></autremot>
+    <autremot forme="filia +æ f"><usage>la fille</usage></autremot>
+    <autremot forme="filius ii m"><usage>le  fils</usage></autremot>
+    <autremot forme="fortuna +æ f"><usage>le destin</usage></autremot>
+    <autremot forme="genus +eris n"><usage>origine</usage></autremot>
+    <autremot forme="hortis hortis m"><usage>l'ennemi</usage></autremot>
+    <autremot forme="hortus +ī m"><usage>jardin</usage></autremot>
+    <autremot forme="lingua +æ f"><usage>la langue</usage></autremot>
+    <autremot forme="locus +ī m"><usage>lieu</usage></autremot>
+    <autremot forme="lupa +æ f"><usage>louve</usage></autremot>
+    <autremot forme="lupus +ī m"><usage>loup</usage></autremot>
+    <autremot forme="mare +is n"><usage>la mer</usage></autremot>
+    <autremot forme="mundus i m"><usage>monde</usage></autremot>
+    <autremot forme="manus +us f"><usage>la main</usage></autremot>
+    <autremot forme="mater tris f"><usage>la mère</usage></autremot>
+    <autremot forme="Musa +æ f"><usage>la Muse</usage></autremot>
+    <autremot forme="nauta æ m"><usage>le marin</usage></autremot>
+    <autremot forme="pater tris m"><usage>le père</usage></autremot>
+    <autremot forme="patria +æ f"><usage>la patrie</usage></autremot>
+    <autremot forme="poeta +æ f"><usage>le poète</usage></autremot>
+    <autremot forme="puer +eri m"><usage>l'enfant</usage></autremot>
+    <autremot forme="Roma +æ f"><usage>Rome</usage></autremot>
+    <autremot forme="res +ei f"><usage>la chose</usage></autremot>
+    <autremot forme="rex +is m"><usage>le roi</usage></autremot>
+    <autremot forme="ripa +æ f"><usage>rive</usage></autremot>
+    <autremot forme="rosă æ f"><usage>rose</usage></autremot>
+    <autremot forme="servus +ī m"><usage>esclave</usage></autremot>
+    <autremot forme="silva +æ f"><usage>la forêt</usage></autremot>
+    <autremot forme="spes ei f"><usage>espoir</usage></autremot>
+    <autremot forme="statua +æ f"><usage>la statue</usage></autremot>
+    <autremot forme="tellus uris f"><usage>la terre</usage></autremot>
+    <autremot forme="templum +ī n"><usage>temple</usage></autremot>
+    <autremot forme="terra +æ f"><usage>la terre</usage></autremot>
+    <autremot forme="verbum +ī n"><usage>le mot</usage></autremot>
+    <autremot forme="via +æ f"><usage>la route</usage></autremot>
+    <autremot forme="villa +æ f"><usage>la ferme</usage></autremot>
+    <autremot forme="vita +æ f"><usage>la vie</usage></autremot>
+    <!--Pour un verbe, 5 formes sont données (https://fr.vikidia.org/wiki/Conjugaisons_en_latin) :
+    1) la 1ère personne du singulier du présent de l'indicatif,
+    2) la 2ème personne du singulier du présent de l'indicatif — parfois exceptée,
+    3) l'infinitif présent,
+    4) la 1ère personne du singulier de l'indicatif parfait,
+    5) le supin (sorte d'infinitif : quelques verbes n'en ont pas)-->
+    <verblat forme="accipio +ĭs +ĕre cepi captum"><usage>recevoir</usage></verblat>
+    <verblat forme="accuso as are āvī ātum"><usage>mettre en cause</usage></verblat>
+    <verblat forme="agĕre ō ās āvī ātum"><usage>mener</usage></verblat>
+    <verblat forme="amo +ās +āre amāvī ātum"><usage>aimer</usage></verblat>
+    <verblat forme="appello +ās +āre +āvī +ātum"><usage>appeler</usage></verblat>
+    <verblat forme="audio +is +ire audivī +itum"><usage>entendre</usage></verblat>
+    <verblat forme="capio +ĭs +ĕre cepi captum"><usage>prendre</usage></verblat>
+    <verblat forme="cedo +is +ere +ī lectum"><usage>s'avancer</usage></verblat>
+    <verblat forme="certo +ās +āre +āvī +ātum"><usage>lutter</usage></verblat>
+    <verblat forme="colo +is +ĕre +uī cultum"><usage>cultiver/honorer</usage></verblat>
+    <verblat forme="conspicio +is +ĕre spexī spectum"><usage>apercevoir</usage></verblat>
+    <verblat forme="creo as are āvī ātum"><usage>créer</usage></verblat>
+    <verblat forme="crescō +ĭs +ĕre  dixi dictum"><usage>grandir</usage></verblat>
+    <verblat forme="dō +ās +āre dedī dātum"><usage>donner</usage></verblat>
+    <verblat forme="delēre ō ēs ēvī ētum"><usage>aimer</usage></verblat>
+    <verblat forme="dīco +is +ere dixi dictum"><usage>dire</usage></verblat>
+    <verblat forme="eo +is +ire ii itum">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">eo</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">is</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">it</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">imus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">itis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">eunt</déclinaison><usage>aller</usage></verblat>
+    <verblat forme="fero fers ferre tuli latum">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">fero</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">fers</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">fert</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">ferimus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">fertis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">ferunt</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="1è. s.">tuli</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="2è. s.">tulisti</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="3è. s.">tulit</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="1è. p.">tulimus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="2è. p.">tulistis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="3è. p.">tulerunt</déclinaison>
+        <usage>porter</usage>
+    </verblat>
+    <verblat forme="faciō +ĭs +ĕre fēcī factum"><usage>faire</usage></verblat>
+    <verblat forme="generō +as +are +avī +atum"><usage>générer</usage></verblat>
+    <verblat forme="habēō +ēs +ere habuī itum"><usage>avoir</usage></verblat>
+    <verblat forme="lego +is +ere +ī lectum"><usage>lire</usage></verblat>
+    <verblat forme="moneō +ēs +ēre +uī +itum"><usage>avertir</usage></verblat>
+    <verblat forme="mutō +as +are +avī +atum"><usage>changer</usage></verblat>
+    <verblat forme="nomino as are avi atum"><usage>nommer</usage></verblat>
+    <verblat forme="parco +is +ere peperci parsum"><usage>épargner</usage></verblat>
+    <verblat forme="pervenio +is +ere perveni perventum"><usage>avertir</usage></verblat>
+    <verblat forme="posco +is +ere posse"><usage>demander</usage></verblat>
+    <verblat forme="possum potes posse, potui">
+        <déclinaison mode="Indicatif" temps="Parfait" personne="1è. s.">potui</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="2è. s.">potuisti</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="3è. s.">potuit</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="1è. p.">potuimus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="2è. p.">potuistis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="3è. p.">potuerunt</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">possum</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">potes</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">potest</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">possumus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">potestis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">possunt</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="1è. s.">poteram</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="2è. s.">poteras</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="3è. s.">poterat</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="1è. p.">poteramus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="2è. p.">poteratis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="3è. p.">poterant</déclinaison>
+        <usage>pouvoir</usage>
+    </verblat>
+    <verblat forme="sentō +ĭs +īre +ivī +itum"><usage>sentir</usage></verblat>
+    <verblat forme="mittō +ĭs +ĕre  misi misum"><usage>envoyer</usage></verblat>
+    <verblat forme="scībō +ĭs +ĕre  dixi dictum"><usage>écrire</usage></verblat>
+    <verblat forme="spectāre ō ās āvī ātum"><usage>regarder</usage></verblat>
+    <verblat forme="sentio +is +ire +ivī +itum"><usage>sentir</usage></verblat>
+    <verblat forme="sum es esse fui">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">sum</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">es</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">est</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">sumus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">estis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">sunt</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="1è. s.">fui</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="2è. s.">fuisti</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="3è. s.">fuit</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="1è. p.">fuimus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="2è. p.">fuistis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Parfait" personne="3è. p.">fuerunt/fuere</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="1è. s.">eram</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="2è. s.">eras</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="3è. s.">erat</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="1è. p.">eramus</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="2è. p.">eratis</déclinaison>
+        <déclinaison mode="Indicatif" temps="Imparfait" personne="3è. p.">erant</déclinaison>
+        <déclinaison mode="Subjonctif" temps="Présent" personne="1è. s.">sim</déclinaison>
+        <déclinaison mode="Subjonctif" temps="Présent" personne="2è. s.">sis</déclinaison>
+        <déclinaison mode="Subjonctif" temps="Présent" personne="3è. s.">sit</déclinaison>
+        <déclinaison mode="Subjonctif" temps="Présent" personne="1è. p.">simus</déclinaison>
+        <déclinaison mode="Subjonctif" temps="Présent" personne="2è. p.">sitis</déclinaison>
+        <déclinaison mode="Subjonctif" temps="Présent" personne="3è. p.">sint</déclinaison>
+        <usage>être</usage>
+    </verblat> 
+    <verblat forme="timeō +ēs +ēre +uī +itum"><usage>craindre</usage></verblat>
+    <verblat forme="transfero transfers Transfere"><usage>transférer</usage></verblat>
+    <verblat forme="teneō +ēs +ere +uī tentum"><usage>tenir</usage></verblat>
+    <verblat forme="veniō +ĭs +īre +ivī +itum"><usage>venir</usage></verblat>
+    <verblat forme="videō +ēs +ēre vidi visum"><usage>voir</usage></verblat>
+    <verblat forme="vīncō +ĭs +ĕre  dixi dictum"><usage>vaincre</usage></verblat>
+    <verblat forme="vocō +ās +āre +āvī +ātum"><usage>appeler</usage></verblat>
+
+</lexique>

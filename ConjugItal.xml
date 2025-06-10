@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Conjugaram.xsd'>
+
+    <entrée id="V0001"><verbe infinitif="abitare"><usage>habiter</usage></verbe></entrée>
+    <entrée id="V0002"><verbe infinitif="agire"><isc/><usage>agir</usage></verbe></entrée>
+    <entrée id="V0003"><verbe infinitif="amare"><usage>aimer</usage></verbe></entrée>
+    <entrée id="V0004">
+        <verbe infinitif="andare">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">vado</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">vai</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">va</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">vanno</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. p.">andremo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">andrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">andresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">andrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">andremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">andreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">andrebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">vada</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">vada</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">vada</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">andiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">andiate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">vadano</déclinaison>
+        <usage>aller</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0006">
+        <verbe infinitif="apparire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">appaio</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">appari</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">appare</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">appaiono</déclinaison>
+            <usage>apparaître</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0007">
+        <verbe infinitif="aprire">
+            <usage>ouvrir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0008"><verbe infinitif="arrivare"><usage>arriver</usage></verbe></entrée>
+    <entrée id="V0009"><verbe infinitif="ascoltare"><usage>écouter</usage></verbe></entrée>
+    <entrée id="V0010"><verbe infinitif="aspettare"><usage>attendre</usage></verbe></entrée>
+    <entrée id="V0011"><verbe infinitif="attribuire"><isc/><usage>attribuer</usage></verbe></entrée>
+    <entrée id="V0012">
+        <verbe infinitif="avere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">ho</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">hai</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">ha</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">abbiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">avete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">hanno</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. s.">avrò</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="2è. s.">avrai</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. s.">avrà</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. p.">avremo</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="2è. p.">avrete</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. p.">avranno</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. s.">avrò</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="2è. s.">avrai</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. s.">avrà</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. p.">avremo</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="2è. p.">avrete</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. p.">avranno</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">avrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">avresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">avrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">avremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">avreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">avrebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">abbia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">abbia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">abbia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">abbiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">abbiate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">abbiano</déclinaison>
+        <usage>avoir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0013"><verbe infinitif="ballare"><usage>danser</usage></verbe></entrée>
+    <entrée id="V0014"><verbe infinitif="bere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">bevo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">bevi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">beve</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">beviamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">beviete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">bevono</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. s.">bevevo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. s.">bevevi</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. s.">beveva</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. p.">bevevamo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. p.">bevevate</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. p.">bevevano</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">berrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">berresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">berrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">berremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">berreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">berrebbero</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">beva</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">beva</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">beva</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">beviamo</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">beviate</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">bevano</déclinaison>
+            <usage>boire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0015"><verbe infinitif="cadere">
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">cadrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">cadresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">cadrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">cadremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">cadreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">cadrebbero</déclinaison>
+        <usage>tomber</usage>
+    </verbe>
+    </entrée>
+    <entrée id="V0016"><verbe infinitif="cantare"><usage>chanter</usage></verbe></entrée>
+    <entrée id="V0017"><verbe infinitif="capire"><usage>comprendre</usage><isc/></verbe></entrée>
+    <entrée id="V0018"><verbe infinitif="cercare"><usage>chercher</usage></verbe></entrée>
+    <entrée id="V0019"><verbe infinitif="chiamare"><usage>appeler</usage></verbe></entrée>
+    <entrée id="V0020"><verbe infinitif="chiedere"><usage>demander</usage></verbe></entrée>
+    <entrée id="V0021"><verbe infinitif="chiudere"><usage>fermer</usage></verbe></entrée>
+    <entrée id="V0022">
+        <verbe infinitif="coliere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">colgo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">coli</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">colie</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">coliamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">colono</déclinaison>
+        <usage>choisir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0023">
+        <verbe infinitif="comparire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">compaio</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">compari</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">compare</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">compaiono</déclinaison>
+            <usage>apparaître</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0024"><verbe infinitif="comprare"><usage>acheter</usage></verbe></entrée>
+    <entrée id="V0025">
+        <verbe infinitif="condurre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">conduco</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">conduci</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">conduce</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">conduciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">conduciete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">conducono</déclinaison>
+            <usage>mener</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0026">
+        <verbe infinitif="conoscere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">conosco</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">conosci</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">conosce</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">conosciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">conosciete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">conoscono</déclinaison>
+            <usage>demander</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0027"><verbe infinitif="communicare"><usage>communiquer</usage></verbe></entrée>
+    <entrée id="V0028">
+        <verbe infinitif="contradire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">contradico</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">contradici</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">contradice</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">contradiciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">contradite</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">contradicono</déclinaison>
+        <usage>contredire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0029"><verbe infinitif="costruire"><isc/><usage>construire</usage></verbe></entrée>
+    <entrée id="V0030"><verbe infinitif="continuare"><usage>continuer</usage></verbe></entrée>
+    <entrée id="V0031"><verbe infinitif="coprire"><usage>couvrir</usage></verbe></entrée>
+    <entrée id="V0032"><verbe infinitif="correre"><usage>courir</usage></verbe></entrée>
+    <entrée id="V0033"><verbe infinitif="credere"><usage>croire</usage></verbe></entrée>
+    <entrée id="V0034"><verbe infinitif="cucinare"><usage>cuisiner</usage></verbe></entrée>
+    <entrée id="V0035">
+        <verbe infinitif="dare">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">do/dò</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">dai</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">dà</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">diamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">date</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">danno/dànno</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">darei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">daresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">darebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">daremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">dareste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">darebbero</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">dia</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">dia</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">dia</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">diamo</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">diate</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">diano</déclinaison>
+        <usage>donner</usage>
+        </verbe>
+    </entrée> 
+    <entrée id="V0036"><verbe infinitif="decidere"><usage>decider</usage></verbe></entrée>
+    <entrée id="V0037"><verbe infinitif="définire"><isc/><usage>définir</usage></verbe></entrée>
+    <entrée id="V0038">
+        <verbe infinitif="dire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">dico</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">dici</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">dice</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">diciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">dite</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">dicono</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. s.">dicevo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. s.">dicevi</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. s.">diceva</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. p.">dicevamo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. p.">dicevate</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. p.">dicevano</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">dica</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">dica</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">dica</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">diciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">diciate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">dicano</déclinaison>
+        <usage>dire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0039">
+        <verbe infinitif="disdire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">disdico</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">disdici</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">disdice</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">disdiciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">disdite</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">disdicono</déclinaison>
+        <usage>résilier</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0040">
+        <verbe infinitif="dormire">
+        <usage>dormir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0041">
+        <verbe infinitif="dovere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">devo/debbo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">devi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">deve</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">dobbiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">dovete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">dovono/debbono</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">dovrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">dovresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">dovrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">dovremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">dovreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">dovrebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">debba</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">debba</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">debba</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">dobbiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">dobbiate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">debbano</déclinaison>
+        <usage>devoir</usage>
+        </verbe>
+    </entrée> 
+    <entrée id="V0042">
+        <verbe infinitif="esporre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">espongo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">esponi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">espone</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">esponiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">esponiete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">espongono</déclinaison>
+            <usage>produire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0043">
+        <verbe infinitif="essere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">sono</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">sei</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">è</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">siamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">siete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">sono</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. s.">ero</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. s.">eri</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. s.">era</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. p.">eravamo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. p.">eravate</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. p.">erano</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. s.">sarò</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="2è. s.">sarai</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. s.">sarà</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. p.">saremo</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="2è. p.">sarete</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. p.">saranno</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">sarei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">saresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">sarebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">saremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">sareste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">sarebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">sia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">sia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">sia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">siamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">siate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">siano</déclinaison>
+        <usage>être</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0044">
+        <verbe infinitif="fare">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">faccio/fo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">fai</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">fa</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">facciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">fate</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">fanno</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="1è. s.">farò</déclinaison>
+            <déclinaison temps="Futur" mode="Indicatif" personne="3è. p.">faranno</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. s.">facevo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. s.">facevi</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. s.">faceva</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. p.">facevamo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. p.">facevate</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. p.">facevano</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">farei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">faresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">farebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">faremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">fareste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">farebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">faccia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">faccia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">faccia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">facciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">facciate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">facciano</déclinaison>
+        <usage>faire</usage>
+        </verbe>
+    </entrée> 
+    <entrée id="V0045"><verbe infinitif="fermare"><usage>arrêter</usage></verbe></entrée>
+    <entrée id="V0046"><verbe infinitif="finire"><usage>finir</usage><isc/></verbe></entrée>
+    <entrée id="V0047"><verbe infinitif="giocare"><usage>jouer</usage></verbe></entrée>
+    <entrée id="V0048"><verbe infinitif="guardare"><usage>regarder</usage></verbe></entrée>
+    <entrée id="V0049"><verbe infinitif="guidare"><usage>conduire</usage></verbe></entrée>
+    <entrée id="V0050"><verbe infinitif="incontrare"><usage>rencontrer</usage></verbe></entrée>
+    <entrée id="V0051"><verbe infinitif="iniziare"><usage>commencer</usage></verbe></entrée>
+    <entrée id="V0052">
+        <verbe infinitif="introdurre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">introduco</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">introduci</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">introduce</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">introduciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">introduciete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">introducono</déclinaison>
+            <usage>introduire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0053">
+        <verbe infinitif="lavare">
+        <usage>laver</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0054">
+        <verbe infinitif="lavorare">
+            <usage>travailler</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0055">
+        <verbe infinitif="leggere">
+            <déclinaison temps="futur" mode="Indicatif" personne="1è. s.">vedrò</déclinaison>
+            <usage>lire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0056"><verbe infinitif="mangiare"><usage>manger</usage></verbe></entrée>
+    <entrée id="V0057">
+        <verbe infinitif="mantenere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">mantengo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">mantieni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">mantiene</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">mantengoto</déclinaison>
+            <usage>maintenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0058">
+        <verbe infinitif="mettere">
+            <déclinaison temps="futur" mode="Indicatif" personne="1è. s.">vedrò</déclinaison>
+            <usage>lire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0059"><verbe infinitif="nascondere"><usage>cacher</usage></verbe></entrée>
+    <entrée id="V0060"><verbe infinitif="offrire"><usage>offrir</usage></verbe></entrée>
+    <entrée id="V0061">
+        <verbe infinitif="opporre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">oppongo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">opponi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">oppone</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">opponiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">opponete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">oppongono</déclinaison>
+            <usage>opposer</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0063">
+        <verbe infinitif="ottenere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">ottengo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">ottieni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">ottiene</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">ottengoto</déclinaison>
+            <usage>obtenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0064"><verbe infinitif="partire"><usage>partir</usage></verbe></entrée>
+    <entrée id="V0065">
+        <verbe infinitif="pensare">
+        <usage>penser</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0066"><verbe infinitif="perdere"><usage>continuer</usage></verbe></entrée>
+    <entrée id="V0067"><verbe infinitif="piangere"><usage>pleurer</usage></verbe></entrée>
+    <entrée id="V0068">
+        <verbe infinitif="porre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">pongo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">poni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">pone</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">poniamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">ponete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">pongono</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. s.">ponevo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. s.">ponevi</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. s.">poneva</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. p.">ponevamo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. p.">ponevate</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. p.">ponevano</déclinaison>
+            <usage>poser</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0069">
+        <verbe infinitif="potere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">posso</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">puoi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">può</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">possiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">potete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">possono</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">potrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">potresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">potrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">potremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">potreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">potrebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">possa</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">possa</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">possa</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">possiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">possiate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">possano</déclinaison>
+        <usage>pouvoir</usage>
+        </verbe>
+    </entrée> 
+    <entrée id="V0070"><verbe infinitif="portare"><usage>porter</usage></verbe></entrée>
+    <entrée id="V0071">
+        <verbe infinitif="predire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">predico</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">predici</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">predice</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">prediciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">predite</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">predicono</déclinaison>
+        <usage>prédire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0072"><verbe infinitif="preferire"><isc/><usage>préférer</usage></verbe></entrée>
+    <entrée id="V0073">
+        <verbe infinitif="preparare">
+            <isc/>
+        <usage>préparer</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0074">
+        <verbe infinitif="produrre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">produco</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">produci</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">produce</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">produciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">produciete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">producono</déclinaison>
+            <usage>produire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0075">
+        <verbe infinitif="proporre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">propongo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">proponi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">propone</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">proponiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">proponete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">propongono</déclinaison>
+            <usage>proposer</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0076">
+        <verbe infinitif="raccoliere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">raccolgo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">raccoli</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">raccolie</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">raccoliamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">raccolono</déclinaison>
+        <usage>recuellir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0077"><verbe infinitif="restituire"><isc/><usage>rendre</usage></verbe></entrée>
+    <entrée id="V0078"><verbe infinitif="ridere"><usage>rire</usage></verbe></entrée>
+    <entrée id="V0079"><verbe infinitif="riempire"><isc/><usage>remplir</usage></verbe></entrée>
+    <entrée id="V0080"><verbe infinitif="rimanere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">rimango</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">rimani</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">rimane</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">rimagoto</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">rimarrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">rimarresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">rimarrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">rimarremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">rimarreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">rimarrebbero</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">rimanga</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">rimanga</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">rimanga</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">rimaniamo</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">rimaniate</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">rimangano</déclinaison>
+            <usage>rester</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0081">
+        <verbe infinitif="ringraziare">
+            <usage>remercier</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0082">
+        <verbe infinitif="ritenere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">ritengo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">ritieni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">ritiene</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">ritengoto</déclinaison>
+            <usage>retenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0083"><verbe infinitif="rispondere"><usage>répondre</usage></verbe></entrée>
+    <entrée id="V0084">
+        <verbe infinitif="salire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">salgo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">sali</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">sale</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">salgono</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">salga</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">salga</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">salga</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">saliamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">saliate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">salgano</déclinaison>
+        <usage>monter</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0085"><verbe infinitif="sapere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">so</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">sai</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">sa</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">sappiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">sapete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">sanno</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">saprei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">sapresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">saprebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">sapremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">sapreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">saprebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">sappia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">sappia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">sappia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">sappiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">sappiate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">sappiano</déclinaison>
+        <usage>savoir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0086">
+        <verbe infinitif="scegliere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">scelgo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">scegli</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">sceglie</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">scegliamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">sceglono</déclinaison>
+        <usage>choisir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0087">
+        <verbe infinitif="scomparire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">scompaio</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">scompari</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">scompare</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">scompaiono</déclinaison>
+            <usage>disparaître</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0088"><verbe infinitif="scoprire"><usage>découvrir</usage></verbe></entrée>
+    <entrée id="V0089"><verbe infinitif="seguire"><usage>suivre</usage></verbe></entrée>
+    <entrée id="V0090"><verbe infinitif="sentire"><isc/><usage>écouter</usage></verbe></entrée>
+    <entrée id="V0091"><verbe infinitif="servire"><usage>servire</usage></verbe></entrée>
+    <entrée id="V0092"><verbe infinitif="smettere"><usage>arrêter</usage></verbe></entrée>
+    <entrée id="V0093"><verbe infinitif="sorridere"><usage>sourire</usage></verbe></entrée>
+    <entrée id="V0094">
+        <verbe infinitif="stare">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">sto</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">stai</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">sta</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">stiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">state</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">stanno</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">starei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">staresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">starebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">staremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">stareste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">starebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">stia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">stia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">stia</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">stiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">stiate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">stiano</déclinaison>
+            <usage>se situer</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0095">
+        <verbe infinitif="studiare">
+        <usage>étudier</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0098"><verbe infinitif="tenere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">tengo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">tieni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">tiene</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">tengoto</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">terrei</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">terresti</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">terrebbe</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">terremmo</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">terreste</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">terrebbero</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">tenga</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">tenga</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">tenga</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">teniamo</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">teniate</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">tengano</déclinaison>
+            <usage>tenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0096">
+        <verbe infinitif="tradurre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">traduco</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">traduci</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">traduce</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">traduciamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">traduciete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">traducono</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. s.">traducevo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. s.">traducevi</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. s.">traduceva</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="1è. p.">traducevamo</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="2è. p.">traducevate</déclinaison>
+            <déclinaison temps="Imparfait" mode="Indicatif" personne="3è. p.">traducevano</déclinaison>
+            <usage>traduire</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0097">
+        <verbe infinitif="trattenere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">trattengo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">trattieni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">trattiene</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">trattengoto</déclinaison>
+            <usage>soutenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0099">
+        <verbe infinitif="toliere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">tolgo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">toli</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">tolie</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">toliamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">tolono</déclinaison>
+        <usage>choisir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0100">
+        <verbe infinitif="trattenere">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">trattengo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">trattieni</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">trattiene</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">trattengoto</déclinaison>
+            <usage>retenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0101"><verbe infinitif="trovare"><usage>trouver</usage></verbe></entrée>
+    <entrée id="V0102"><verbe infinitif="unire"><isc/><usage>unir</usage></verbe></entrée>
+    <entrée id="V0103">
+        <verbe infinitif="uscire">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">esco</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">esci</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">esce</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">escono</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">esca</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">esca</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">esca</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">escano</déclinaison>
+        <usage>sortir</usage>
+        </verbe>
+    </entrée> 
+    <entrée id="V0104"><verbe infinitif="vedere">
+        <déclinaison temps="futur" mode="Indicatif" personne="1è. s.">vedrò</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">vedrei</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">vedresti</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">vedrebbe</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">vedremmo</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">vedreste</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">vedrebbero</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">veda</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">veda</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">veda</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">vediamo</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">vediate</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">vedano</déclinaison>
+        <usage>voir</usage>
+        </verbe></entrée> 
+    <entrée id="V0105"><verbe infinitif="viaggare"><usage>voyager</usage></verbe></entrée>
+    <entrée id="V0106"><verbe infinitif="visitare"><usage>visiter</usage></verbe></entrée>
+    <entrée id="V0107"><verbe infinitif="volere">
+        <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">voglio</déclinaison>
+        <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">vuoi</déclinaison>
+        <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">vogliamo</déclinaison>
+        <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">vogliono</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">vorrei</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">vorresti</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">vorrebbe</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">vorremmo</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">vorreste</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">vorrebbero</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">voglia</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">voglia</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">voglia</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">vogliamo</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">vogliate</déclinaison>
+        <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">vogliano</déclinaison>
+        <usage>vouloir</usage>
+        </verbe>
+    </entrée> 
+    <entrée id="V0108"><verbe infinitif="venire">
+        <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">vengo</déclinaison>
+        <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">vieni</déclinaison>
+        <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">viene</déclinaison>
+        <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">vengono</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">verrei</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">verresti</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">verrebbe</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">verremmo</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">verreste</déclinaison>
+        <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">verrebbero</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. s.">venga</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. s.">venga</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. s.">venga</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="1è. p.">veniamo</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="2è. p.">veniate</déclinaison>
+            <déclinaison temps="Présent" mode="Subjonctif" personne="3è. p.">vengano</déclinaison>
+        <usage>venir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0109"><verbe infinitif="vendere"><usage>vendre</usage></verbe></entrée> 
+    <entrée id="V0110"><verbe infinitif="vincere"><usage>gagner</usage></verbe></entrée> 
+    <entrée id="V0111"><verbe infinitif="vivere">
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. s.">vivrei</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. s.">vivresti</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. s.">vivrebbe</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="1è. p.">vivremmo</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="2è. p.">vivreste</déclinaison>
+            <déclinaison temps="Présent" mode="Conditionnel" personne="3è. p.">vivrebbero</déclinaison>
+        <usage>vivre</usage>
+    </verbe>
+    </entrée>
+    <entrée id="V0112">
+        <verbe infinitif="proporre">
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. s.">propongo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. s.">propponi</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. s.">proppone</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="1è. p.">proponiamo</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="2è. p.">propponete</déclinaison>
+            <déclinaison temps="Présent" mode="Indicatif" personne="3è. p.">proppongono</déclinaison>
+        <usage>proposer</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0113"><verbe infinitif="parlare"><usage>parler</usage></verbe></entrée>
+    <entrée id="V0114">
+        <verbe infinitif="dimenticare">
+        <usage>oublier</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0115">
+        <verbe infinitif="pagare">
+        <usage>appeler</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0116">
+        <verbe infinitif="tornare">
+        <usage>revenir</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0043">
+        <verbe infinitif="spiegare">
+        <usage>expliquer</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0045">
+        <verbe infinitif="mancare">
+        <usage>manquer/rester</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0046">
+        <verbe infinitif="cenare">
+        <usage>dîner</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0047">
+        <verbe infinitif="raccontare">
+        <usage>raconter</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0048">
+        <verbe infinitif="prendere">
+        <usage>prendre</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0050">
+        <verbe infinitif="decidere">
+        <usage>décider</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0051">
+        <verbe infinitif="scendere">
+        <usage>descendre</usage>
+        </verbe>
+    </entrée>
+    <entrée id="V0052">
+        <verbe infinitif="scrivere">
+        <usage>écrire</usage>
+        </verbe>
+    </entrée>
+</lexique>

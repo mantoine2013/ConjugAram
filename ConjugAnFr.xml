@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
+
+    <verbanfr forme="chant +er +é"><usage>chanter</usage></verbanfr>
+    <verbanfr forme="avoir es esse">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">ai</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">as</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">a</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">aiens/aions</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">aiez</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">aient</déclinaison>
+        <usage>avoir</usage>
+    </verbanfr> 
+    <verbanfr forme="estre es esse">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">sui</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">ies/es</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">est</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">sommes</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">estes</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">sont</déclinaison>
+        <usage>être</usage>
+    </verbanfr> 
+    <verbanfr forme="boivre +ir"><usage>boire</usage></verbanfr>
+    <verbanfr forme="par +oir +u"><usage>apparaître</usage></verbanfr>
+    <verbanfr forme="part +ir +i"><usage>partir</usage></verbanfr>
+    <autremot forme="mur m"><usage>le mur</usage></autremot>     
+    <autremot forme="pedre m"><usage>le père</usage></autremot>     
+    <verbanfr forme="ven +ir +i"><usage>venir</usage></verbanfr>
+</lexique>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
+
+    <verbcopt infinitif="ⲃⲱⲗ ⲃⲟⲗ//"><usage>délier</usage></verbcopt>
+    <verbcopt infinitif="Ϩⲉⲙϭⲓ"><usage>s'asseoir</usage></verbcopt>
+    <verbcopt infinitif="ⲥⲟⲗⲥⲉⲗ ⲥⲉⲗⲥⲉⲗ- ⲥⲉⲗⲥⲱⲗ//"><usage>consoler</usage></verbcopt>
+    <verbcopt infinitif="ⲥ̀ⲑⲉⲣⲧⲉⲣ"><usage>trembler</usage></verbcopt>
+    <verbcopt infinitif="ⲙⲟⲥⲓ"><usage>marcher</usage></verbcopt>
+    <verbcopt infinitif="ⲥⲁϫⲓ"><usage>parler</usage></verbcopt>
+    <verbcopt infinitif="ⲙⲉ"><usage>aimer</usage></verbcopt>
+    <verbcopt infinitif="ⲛⲟϩⲉⲙ"><usage>sanctifier</usage></verbcopt>
+    <verbcopt infinitif="ⲓ"><usage>venir</usage></verbcopt>
+    <verbcopt infinitif="ⲟⲩⲱⲙ"><usage>manger</usage></verbcopt>
+    <verbcopt infinitif="ⲟⲩⲱⲛ"><usage>ouvrir</usage></verbcopt>
+    <autremot forme="ⲣⲱⲙⲓ ⲣⲉⲙ-"><usage>homme</usage></autremot>
+    <autremot forme="ⲭⲏⲙⲓ"><usage>Égypte</usage></autremot>
+</lexique>

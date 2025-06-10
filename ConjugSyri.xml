@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugSyri.xsd'>
+
+
+    <entrée racine="ܐܙܠ"><verbe infinitif="ܐܙܠ"><usage>aller</usage></verbe></entrée>
+    <entrée racine="ܫܒܩ">
+        <verbe infinitif="ܫܒܩ">
+        <usage>remettre</usage>
+        </verbe>
+    </entrée>
+    <entrée racine="ܥܠ">
+        <verbe infinitif="ܥܠ">
+        <usage>aller</usage>
+        </verbe>
+    </entrée>
+    <entrée racine="ܥܪܩ">
+        <verbe infinitif="ܥܪܩ">
+        <usage>fuir</usage>
+        </verbe>
+    </entrée>
+    <entrée racine="ܕܒܪ">
+        <verbe infinitif="ܕܒܪ">
+        <usage>conduire</usage>
+        </verbe>
+    </entrée>
+    <entrée racine="ܟܘܢ">
+        <verbe infinitif="ܟܘܢ">
+        <usage>exister/être</usage>
+        </verbe>
+    </entrée>
+    <entrée racine="ܫܡܥ">
+        <verbe infinitif="ܫܡܥ">
+        <usage>écouter</usage>
+        </verbe>
+    </entrée>
+    <entrée racine="ܦܢܳܐ">
+        <verbe infinitif="ܦܢܳܐ">
+        <usage>tourner</usage>
+        <usage>se convertir</usage>
+        </verbe>
+    </entrée>
+
+    <entrée racine="ܡܪܳܐ">
+        <verbe infinitif="ܡܪܳܐ">
+        </verbe>
+        <usage>parler</usage>
+    </entrée>
+        <entrée racine="ܩܛܰܠ">
+        <verbe infinitif="ܩܛܰܠ">
+        </verbe>
+        <usage>parler</usage>
+    </entrée>
+
+</lexique>

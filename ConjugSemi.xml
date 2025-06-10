@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
+
+<!--
+    <entrée racine="šrʾ"><verbe lang="arabe" forme="1" infinitif="سرء"><usage>conduire</usage></verbe></entrée>
+    <entrée racine="qṭl"><versy forme="ܩܪܒ"><usage schème="Pa‘el">offrir</usage></versy></entrée>
+        -->
+    <entrée racine="´mr">
+        <versy forme="ܐܡܪ"><usage schème="Pe‘al">dire/parler</usage></versy>
+        <verhb infinitif="אמרֶ"><usage schème="Qal">dire/parler</usage></verhb>       
+    </entrée>
+    <entrée racine="´mr"><versy forme="ܐܫܦ"><usage schème="Pe‘al">enchanter</usage></versy></entrée> 
+    <entrée racine="´mr"><versy forme="ܐܰܬܰܐ"><usage schème="Pe‘al">venir</usage></versy></entrée> 
+    <entrée racine="´mr"><versy forme="ܝܠܕ"><usage schème="Pe‘al">enfanter</usage></versy></entrée> 
+    <entrée racine="´ql"><versy forme="ܐܶܟ݂ܰܠ"><usage schème="Pe‘al">manger</usage></versy></entrée> 
+    <entrée racine="tb"><authbmot forme="ܛܳܒ"><usage>bon</usage></authbmot></entrée>
+    <entrée racine="abád"><verhb infinitif="עָבַד"><usage schème="Qal">travailler</usage></verhb></entrée>       
+    <entrée racine="asá"><verhb infinitif="עשהׂ"><usage schème="Qal">faire</usage></verhb></entrée>       
+    <entrée racine="brk"><verhb infinitif="בָּרָא"><usage schème="Qal">créer</usage></verhb></entrée>       
+    <entrée racine="brk"><verhb infinitif="בָּרַך"><usage schème="Qal">bénir</usage></verhb></entrée>       
+    <entrée racine="byn"><verhm infinitif="בִין"><usage schème="Hifil">comprendre</usage></verhm></entrée>
+    <entrée racine="bzz"></entrée>
+    <entrée racine="gzr"></entrée>
+    <entrée racine="ylp"><autsymot forme="ܝܽܘܠܦ݁ܳܢܶܐ"><usage>doctrine</usage></autsymot><versy forme="ܝܠܦ"><usage schème="Pe‘al">apprendre</usage></versy></entrée>
+    <entrée racine="gb´"><versy forme="ܓܒܳܐ"><usage schème="Pe‘al">choisir/élire</usage></versy></entrée>
+    <entrée racine="ktb"><versy forme="ܟܬܒ"><usage schème="Pe‘al">écrire</usage></versy></entrée>
+    <entrée racine="lḥm"><verhb infinitif="לָחַם"><usage schème="Paal">faire la guerre</usage></verhb></entrée> 
+    <entrée racine="lmd"><verhb infinitif="לְהוֹלִיד"><usage schème="Hifil">engendrer</usage></verhb></entrée> 
+    <entrée racine="lmd"> <verhb infinitif="למדֹ"><usage schème="Qal">apprendre</usage></verhb></entrée> 
+    <entrée racine="mlk"><autsymot forme="ܠܟܶܡ"><usage>roi</usage></autsymot><versy forme="ܡܠܟ"><usage schème="Pe‘al">régner</usage></versy></entrée>
+    <entrée racine="nḥṯ"><versy forme="ܢܚܬ"><usage schème="Pe‘al">descendre</usage></versy></entrée>
+    <entrée racine="npq"></entrée>
+    <entrée racine="pn´"><versy forme="ܦܢܳܐ"><usage schème="Pe‘al">contourner/se convertir</usage></versy></entrée>    
+    <entrée racine="qḏš">
+        <versy forme="ܩܕܫ"><usage schème="Pe‘al">sanctifier</usage></versy>        
+        <verhb infinitif="קדשׁ"><usage schème="Qal">sanctifier</usage></verhb>
+       <authbmot forme="קדושה"><usage>sainteté/consécration</usage></authbmot>
+    </entrée> 
+    <entrée racine="rbʿ"><verhb infinitif="רבץ"><usage schème="Qal">s'étendre</usage></verhb></entrée>
+    <entrée racine="smk"><versy forme="ܣܡܟ"><usage schème="Pe‘al">poser</usage></versy></entrée>
+    <entrée racine="qnh"><verhm infinitif="קנה"><usage schème="Paal">acheter</usage></verhm></entrée>
+    <entrée racine="qṭl">
+        <verhb infinitif="קטל"><usage schème="Qal">tuer</usage></verhb>       
+        <versy forme="ܩܛܰܠ">
+            <usage schème="Pe‘al">tuer</usage>
+            <usage schème="Etpe‘el">être tué</usage>
+            <usage schème="Pa‘el">massacrer</usage>
+            <usage schème="Etpa‘al">être massacré</usage>
+        </versy>       
+    </entrée>
+    <entrée racine="qwm"></entrée>
+    <entrée racine="rmy"></entrée>
+    <entrée racine="rwh"><authbmot forme="ܪܘܚܐ "><usage>tête</usage></authbmot></entrée>
+    <entrée racine="yld"></entrée>
+    <entrée racine="sgr"><verhm infinitif="סגר"><usage schème="Paal">fermer</usage></verhm></entrée>
+    <entrée racine="sdr"><verhm infinitif="סֵ דּר"><usage schème="Piel" >ranger</usage></verhm></entrée>
+    <entrée racine="sm'"> <verhb infinitif="שמע"><usage schème="Qal">entendre</usage></verhb></entrée> 
+    <entrée racine="ܗܘܐ">
+        <versy forme="ܗܘܐ">
+            <déclinaison temps="accompli" schème="Peal"  personne=" 1è. s. :">ܗܘܺܝܬ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 2è. m. s. : ">ܗܘܰܝܬ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 2è. f. s. : ">ܗܘܰܝܬ݁ܝ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 3è. m. s. : ">ܗܘܐ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 3è. f. s. : ">ܗܘܳܬ݁</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 1è. p. : ">ܗܘܰܝܢ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 2è. m. s. : ">ܗܘܰܝܬܽܘܢ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 2è. f. s. : ">ܗܘܰܝܬܶܝ̈ܢ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 3è. m. p. : ">ܗܘܰܘ</déclinaison>
+            <déclinaison temps="accompli" schème="Peal"  personne=" 3è. f. p. : ">ܗܘܰܝܢ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 1è. s. :">ܐܶܗܘܶܐ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 2è. m. s. :">ܬܶܗܘܶܐ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 2è. f. s. :">ܬܶܗܘܶܝܢ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 3è. m. s. :">ܢܶܗܘܶܐ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 3è. f. s. :">ܬܶܗܘܶܐ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 1è. s. :">ܢܶܗܘܶܐ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 2è. m. p. :">ܬܶܗܘܽܘܢ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 2è. f. p. :">ܬܶܗ̈ܘܝܳܢ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 3è. m. p. :">ܢܶܗܘܘܶܢ</déclinaison>
+            <déclinaison temps="Inaccompli" schème="Peal"  personne=" 3è. f. p. :">ܢܶܗ̈ܘܝܳܢ</déclinaison>
+            <usage schème="Pe‘al">être</usage>
+       </versy>
+     </entrée>
+    <entrée racine="yld"><versy forme="ܫܩܰܠ"><usage schème="Pe‘al">soulever</usage></versy></entrée>
+    <entrée racine="zr"><authbmot forme="ܙܪܥ"><usage>semence</usage></authbmot></entrée>
+    
+    <entrée racine="sql"><versy forme="ܫܩܠ"><usage schème="Pe‘al">prendre</usage></versy></entrée>
+    <entrée racine="yld"><authbmot forme="סוּס"><usage>cheval</usage></authbmot></entrée>
+</lexique>
+

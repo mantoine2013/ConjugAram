@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
+    <entrée racine="ẖn(j)">
+        <verhi Infinitif="𓄔"><usage>ramer/voyager en bateau</usage></verhi>
+    </entrée>
+    <entrée racine="ẖnn">
+        <verhi Infinitif="𓄔"><usage>agiter/troubler</usage></verhi>
+    </entrée>
+    <entrée racine="ẖn">
+        <verhi Infinitif="𓄔"><usage>approcher</usage></verhi>
+    </entrée>
+    <entrée racine="sḏm">
+        <verco Infinitif="sôtem"><usage>entendre</usage></verco>
+        <verhi Infinitif="𓄔"><usage>entendre</usage></verhi>
+    </entrée>
+    <entrée racine="ꜥnḫ">
+        <verhi Infinitif="𓄔"><usage>vivre</usage></verhi>
+    </entrée>
+    <entrée racine="sš">
+        <verhi Infinitif="𓄔"><usage>écrire/peindre</usage></verhi>
+    </entrée>
+    
+</lexique>
+

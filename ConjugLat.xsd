@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    	<xs:element name="lexique" type="CTlexique"/>
+        
+        
+	<xs:complexType name="CTlexique">
+            <xs:sequence maxOccurs="unbounded">
+		<xs:element name="entrée" type="CTentrée"/>
+            </xs:sequence>                
+        </xs:complexType>
+
+        <xs:complexType name="CTentrée">
+            <xs:choice maxOccurs="unbounded">
+		<xs:element name="usage" type="CTsource"/>
+            </xs:choice>
+            <xs:attribute name="Parfait" type="xs:ID" use="required"/>
+	</xs:complexType>
+
+        <xs:complexType name="CTr">
+            <xs:simpleContent>
+		<xs:extension base="xs:string">
+		</xs:extension>
+            </xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="CTsource" mixed="true">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:element name="racine" type="CTr"/>
+			<xs:element name="note" type="xs:string"/>
+			<xs:element name="def" type="xs:string"/>
+		</xs:choice>
+	</xs:complexType>
+
+
+</xs:schema>

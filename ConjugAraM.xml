@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
+
+    <entrée racine="ktb"><varaM forme="1" infinitif="كتب"><usage>écrire</usage></varaM></entrée>
+    <entrée racine=""><varaM forme="1" infinitif="فهم"><usage>comprendre</usage></varaM></entrée>
+     <entrée racine="drs">
+        <varaM forme="1" infinitif="درس">
+            <usage>apprendre</usage>
+        </varaM>       
+    </entrée>   
+    <entrée racine="djḫ"> 
+        <varaM forme="1" infinitif="دخل">
+            <usage>entrer</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="ktb"><varaM forme="1" infinitif="فعل"><usage>faire</usage></varaM></entrée>
+    <entrée racine="ḫrj"> 
+        <varaM forme="1" infinitif="خرج">
+            <usage>sortir</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="jrj"> 
+        <varaM forme="1" infinitif="جلس">
+            <usage>s'asseoir</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="jrb"> 
+        <varaM forme="1" infinitif="شرب">
+            <usage>boire</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="ḏhb"> 
+        <varaM forme="1" infinitif="ذهب">
+            <usage>aller</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="drb"> 
+        <varaM forme="1" infinitif="درس">
+            <usage>étudier</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="skn"> 
+        <varaM forme="1" infinitif="سكن">
+            <usage>habiter</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="ykl"> 
+        <varaM forme="1" infinitif="أكل">
+            <usage>manger</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="ykḫ"> 
+        <varaM forme="1" infinitif="طبخ">
+            <usage>cuisiner</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="yjd"> 
+        <varaM forme="1" infinitif="سجد">
+            <usage>prosterner</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="nzl"><varaM forme="1" infinitif="نزل"><usage>descendre</usage></varaM></entrée>
+    <entrée racine="nrl"> 
+        <varaM forme="1" infinitif="عرف">
+            <usage>connaître</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="ḥjz"> 
+        <varaM forme="1" infinitif="حجز">
+            <usage>réserver</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="rjl"> 
+        <varaM forme="1" infinitif="رجع">
+            <usage>revenir</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="nār"><varaM forme="1" infinitif="طار"><usage>voler</usage></varaM></entrée>
+    <entrée racine="qwl"><varaM forme="1" infinitif="قال"><usage>dire</usage></varaM></entrée>
+    <entrée racine="sbh"> 
+        <varaM forme="1" infinitif="سبح">
+            <usage>nager</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="sbh"> 
+        <varaM forme="1" infinitif="عمل">
+            <usage>travailler</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="sbh"> 
+        <varaM forme="1" infinitif="ركب">
+            <usage>prendre (le bus...)</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="sbh"> 
+        <varaM forme="1" infinitif=" تكلم">
+            <usage>parler</usage>
+        </varaM>
+     </entrée>
+    <entrée racine="kbl"> 
+        <varaM forme="1" infinitif="قبل">
+            <usage>accepter</usage>
+        </varaM>
+     </entrée>      
+    <amaraM forme="طَالِبٌ"><usage>étudiant</usage></amaraM>
+</lexique>

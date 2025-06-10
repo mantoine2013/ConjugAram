@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugHebib.xsd'>
+
+    <entrée racine="qṭl">
+        <verhb infinitif="קטל">
+            <usage schème="Qal">tuer</usage>
+        </verhb>       
+    </entrée>
+    <entrée racine="qḏš">
+        <verhb infinitif="קדשׁ">
+            <usage>sanctifier</usage>
+        </verhb>       
+    </entrée> 
+</lexique>
