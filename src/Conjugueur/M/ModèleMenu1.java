@@ -92,5 +92,5 @@ public class ModèleMenu1 extends AbstractListModel implements ComboBoxModel {
         if (DEBUG) { System.out.println ("Conjugueur.M.ModèleMenu1.setSelectedItem, selection = " + selection) ; }
       } // item from the pull-down list
       
-    private final boolean DEBUG = false ;
+    private final boolean DEBUG = true ;
 }                                                                           // ModèleMenu1
