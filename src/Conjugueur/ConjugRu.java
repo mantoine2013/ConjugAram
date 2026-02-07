@@ -24,8 +24,8 @@ public class ConjugRu {
                 Conjug.M.Indicatif.im(),                                        // mode
                 Conjugueur.M.ConjugAnFr.TAnFr.PasséSimple.it(),                     // temps
                 Conjugueur.M.ConjugAnFr.V.Active.iv(),                          // voix
-                    6/*Conjugueur.M.ConjugAnFr.cbVerbeM.getSize()/2*/,          // iVerbe
-                    Conjugueur.M.ConjugAnFr.cbAutreMotM.getSize()/2,
+                Conjugueur.M.ConjugAnFr.cbVerbeM.getSize()/2,          // iVerbe
+                Conjugueur.M.ConjugAnFr.cbAutreMotM.getSize()/2,
                 Conjugueur.M.ConjugAnFr.N.Singulier.in());
         Conjugueur.C.ConjugRu contrôleur = new Conjugueur.C.ConjugRu(modèle);
         contrôleur.displayVues(); 
