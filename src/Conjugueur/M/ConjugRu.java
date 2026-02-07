@@ -18,5 +18,5 @@ public class ConjugRu extends Conjug {
     }                                                                           // ConjugRu
     public static final String ATTRIBUT = "forme", BALISÉNAUTREMOT = "autremot", BALISÉNVERBE = "verbanfr", LANGUE = "ru", XMLSOURCE = "ConjugRu.xml";
     public final static ModèleMenu1 cbAutreMotM = new ModèleMenu1(XMLSOURCE, BALISÉNAUTREMOT, ATTRIBUT, LANGUE) ;
-    private static final boolean DEBUG = false;      
+    private static final boolean DEBUG = true ;      
 }
