@@ -2,7 +2,57 @@
 <lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
     <autremot forme="Вино"><usage>vin</usage></autremot>
-
+    <autremot forme="Студент"><usage>étudiant</usage></autremot>
+    <verbru imperfectif="Быть +и">
+        <déclinaison mode="Indicatif" temps="Futur" personne="1è. m. s.">буду</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="1è. f. s.">буду</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="2è. m. s.">будешь</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="2è. f. s.">будешь</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="3è. m. s.">будет</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="3è. f. s.">будет</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="1è. p.">будем</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="2è. p.">будете</déclinaison>
+        <déclinaison mode="Indicatif" temps="Futur" personne="3è. p.">будут</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Passé" personne="1è. s.">естл</déclinaison>
+        <déclinaison mode="Indicatif" temps="Passé" personne="2è. s.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Passé" personne="3è. s.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Passé" personne="1è. p.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Passé" personne="2è. p.">есть</déclinaison>
+        <déclinaison mode="Indicatif" temps="Passé" personne="3è. p.">есть</déclinaison>
+    <usage>être</usage></verbru>
+    <verbru imperfectif="Говори +и"><usage>parler</usage></verbru>
+    <verbru imperfectif="ДЕЛАТЬ +e"><usage>faire</usage></verbru>
+    <verbru imperfectif="есть +и">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. s.">е́м</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. s.">е́шь</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. s.">е́ст</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">еди́м</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">еди́те</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">едя́т</déclinaison>
+    <usage>manger</usage></verbru>
+    <verbru imperfectif="мочь +e">
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. m. s.">могу́</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. f. s.">могу́</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. m. s.">мо́жешь</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. f. s.">мо́жешь</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. m. s.">мо́жет</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. f. s.">мо́жет</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="1è. p.">мо́жем</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="2è. p.">мо́жете</déclinaison>
+        <déclinaison mode="Indicatif" temps="Présent" personne="3è. p.">мо́гут</déclinaison>
+        <usage>pouvoir</usage>
+    </verbru>
+    <verbru imperfectif="понимать +e"><usage>comprendre</usage></verbru>
+    <verbru imperfectif="Творчество"><usage>travailler</usage></verbru>
+    <verbru imperfectif="работать +e"><usage>travailler</usage></verbru>
+    <verbru imperfectif="купить +e"><usage>acheter</usage></verbru>
+    <verbru perfectif="читать +e" imperfectif="прочитать +e"><usage>lire</usage></verbru>
     
 </lexique>
 
