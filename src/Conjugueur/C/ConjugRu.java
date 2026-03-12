@@ -12,7 +12,9 @@ public class ConjugRu  extends Conjug {
      */
     public ConjugRu (Conjugueur.M.ConjugRu model){
         if (DEBUG) { System.out.println("Conjugueur.C.ConjugRu::ConjugRu") ; }
+        this.model = model; 
         fieldVue = new JFrameConjugRu(this); 
+        addListenersToModèle();
     }                                                                           // ConjugRu
     
     private static final boolean DEBUG = false;        

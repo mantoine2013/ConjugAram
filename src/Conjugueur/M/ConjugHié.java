@@ -35,9 +35,6 @@ public class ConjugHié extends Conjug {
 //            listener.VerbeChanged(new VerbeChangedEvent(this, getConjugHié()));
         }
     }
-    public TreeModelListener[] getTreeModelListeners() {
-        return (TreeModelListener[])listenerList.getListeners(TreeModelListener.class);
-    }
     
     public static int Verbe = 0 ;
     

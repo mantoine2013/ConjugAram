@@ -5,7 +5,6 @@ package Conjugueur;
 
 import Conjugueur.M.ConjÉtatSyriM;
 import Conjugueur.M.Conjug;
-import static Conjugueur.M.ConjugGrecA.cbVerbeM;
 import java.awt.*;
 import javax.swing.*;
 

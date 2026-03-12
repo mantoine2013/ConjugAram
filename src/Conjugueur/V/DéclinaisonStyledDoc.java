@@ -25,14 +25,15 @@ public class DéclinaisonStyledDoc extends DefaultStyledDocument {
 
 /**
  * Fonction : 
+     * Fction appelante : LigneConj::LigneConj
  * Algorithme :
  *  1. Obtenir les attributs de la police, attribuer la ligature, dériver une nouvelle police
  * @param policeDéclinaison
  * @param alignement
  */
-    @SuppressWarnings("unchecked")
+    @SuppressWarnings({"unchecked", "unchecked"})
     public DéclinaisonStyledDoc(Font policeDéclinaison, int alignement) {
-        if (DEBUG) System.out.println("Conjugueur.V.DéclinaisonStyledDoc::DéclinaisonStyledDoc, policeDéclinaison.getFamily() = " + policeDéclinaison.getFamily()+", alignement = " + alignement) ;
+        if (DEBUG) { System.out.println("Conjugueur.V.DéclinaisonStyledDoc::DéclinaisonStyledDoc, policeDéclinaison.getFamily() = " + policeDéclinaison.getFamily() + ", alignement = " + alignement) ;}
         Map attributes = policeDéclinaison.getAttributes(); attributes.put(TextAttribute.LIGATURES, TextAttribute.LIGATURES_ON); 
         DéclinaisonStyledDocPolice = policeDéclinaison.deriveFont(attributes);
         StyleConstants.setFontFamily(styledéclinaison, DéclinaisonStyledDocPolice.getFamily());

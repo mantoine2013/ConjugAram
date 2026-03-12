@@ -19,7 +19,7 @@ public class JTableau extends JTable {
      */
     public JTableau (ConjTable conjTableM) {
         super();
-        if (DEBUG) System.out.println("Conjugueur.Vue.JTableau::JTableau") ;
+        if (DEBUG) System.out.println("Conjugueur.V.JTableau::JTableau") ;
         this.setModel(conjTableM) ;
     }                                                                           // JTableau    
     @Override
@@ -116,5 +116,5 @@ public class JTableau extends JTable {
             columnModel.getColumn(column).setPreferredWidth(width);
         }                                                                       // pour ttes les col
     }                                                                           // resizeColumnWidth
-    public static final boolean DEBUG = false;
+    public static final boolean DEBUG = false ;
 }                                                                               // JTableau

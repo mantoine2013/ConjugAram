@@ -28,7 +28,9 @@ public class ConjugGrecA extends Conjug {
             listener.thèmeChanged(new ThèmeChangedEvent(this, getThème()));
         }
     }
+    @Override
     public short getThème() {  return thème ; }
+
     public void setThème(short thème) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setThème, thème = "+ thème) ; }
         this.thème = thème;

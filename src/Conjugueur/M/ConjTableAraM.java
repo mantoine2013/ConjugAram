@@ -6,7 +6,6 @@ import Conjugueur.V.JFrameConjugAraM;
 import static Conjugueur.V.JFrameConjugAraM.ARABE;
 import com.ibm.icu.text.Transliterator;
 import Conjugueur.V.DéclinaisonStyledDoc;
-import Conjugueur.V.JFrameConjugAnFr;
 import static Conjugueur.V.JFrameConjugAraM.PRÉFIXE;
 import static Conjugueur.V.JFrameConjugAraM.SUFFIXE;
 import javax.swing.text.BadLocationException;

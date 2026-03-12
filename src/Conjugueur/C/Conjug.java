@@ -1,5 +1,6 @@
 /**
  * @author MichelANTOINE@hotmail.com
+ * A comme souclasses ConjugAnFr, ConjugRu
  */
 package Conjugueur.C;
 
@@ -12,6 +13,10 @@ public class Conjug {
         model.addConjugListener(fieldVue);
     }
 
+    /**
+     * Fction appelante : Conjugueur.V.JFrameConjug::actionPerformed
+     * @param va VERBE
+     */
     public void notifyVAChanged(String va, int valeur){
        if (DEBUG) { System.out.println ("Conjugueur.C.Conjug::notifyVAChanged, va = " + va + ", valeur = " + valeur) ; }
         switch (va) {
@@ -35,5 +40,5 @@ public class Conjug {
         fieldVue.close();
     }
     protected final static String AUTREMOT= "A", ÉCRITURE = "ÉC", ÉTAT="ÉT", MODE = "M", NOMBRE = "N", SCHEME = "S", TEMPS = "T", THÈME = "TH", VERBE = "V", VOIX = "VO" ;
-    private static final boolean DEBUG = false;      
+    private static final boolean DEBUG = false ;      
 }

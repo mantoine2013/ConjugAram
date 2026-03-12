@@ -72,7 +72,7 @@ public class ConjTable extends AbstractTableModel {
      * @return 
     */
     public int AjouterLigne(String etipers, Font FontUtilisateur, int alignement) {
-        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterLigne, etipers = " + etipers+", FontUtilisateur.getFontName() = "+FontUtilisateur.getFontName()) ; }
+        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterLigne, etipers = " + etipers+", FontUtilisateur.getFontName() = " + FontUtilisateur.getFontName()) ; }
         tab.add(new LigneConj(etipers, FontUtilisateur, alignement)) ;
         inbLignes++ ;
        return tab.size() - 1 ;
@@ -81,7 +81,7 @@ public class ConjTable extends AbstractTableModel {
     /**
      * Fonction : Ajoute une personne spécifiée par l'indice "ipersonne" : 1, 2, ....
      * Algorithme : insère une ligne ds le tableau de conjugaison "ConjTablemodele.tab" et en 1ère colonne "personne" le libellé passé en paramètre
-     * Fction appelante : ConjTableAraM::MAJ
+     * Fction appelante : ConjTableAraM::MAJ, Conjugueur.M.ConjTableRu.MAJConj
      * @param ip    indice ds la table "tab
      * @param lpers libellé de personne "1è. s.", "2è. m. s."
      * @param PoliceDéclinaison police 2è col
@@ -119,12 +119,14 @@ public class ConjTable extends AbstractTableModel {
      */
    public void AjouterTranslittération (int ip, Transliterator toLatinTrans)  throws BadLocationException {
         if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterTranslittération, ip = " + ip) ; }
-//        if (DEBUG) for (char c : tab.get(ip).déclinaison.getText(0, tab.get(ip).déclinaison.getLength()).toCharArray()) new PrintWriter(System.out,true).printf("c = %c , unicode = %x ", c, (int)c) ;
+        if (DEBUG) for (char c : tab.get(ip).déclinaison.getText(0, tab.get(ip).déclinaison.getLength()).toCharArray()) new PrintWriter(System.out,true).printf("c = %c , unicode = %x ", c, (int)c) ;
        tab.get(ip).translittération = toLatinTrans.transliterate(tab.get(ip).déclinaison.getText(0, tab.get(ip).déclinaison.getLength())); tab.get(ip).translittération = toLatinTrans.transliterate(tab.get(ip).déclinaison.getText(0, tab.get(ip).déclinaison.getLength())); 
    }
-
+    /**
+     * Fction appelante : Conjugueur.M.ConjTableRu::MAJConj
+     */
    public void AjouterTranslittération (Transliterator toLatinTrans)  throws BadLocationException {
-        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterTranslittération, ip = " + inbLignes+", toLatinTrans = "+toLatinTrans.toString()) ; }
+        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterTranslittération, ip = " + inbLignes + ", toLatinTrans = "+toLatinTrans.toString()) ; }
 //        if (DEBUG) for (char c : tab.get(inbLignes).déclinaison.getText(0, tab.get(inbLignes).déclinaison.getLength()).toCharArray()) new PrintWriter(System.out,true).printf("c = %c , unicode = %x ", c, (int)c) ;
        tab.get(inbLignes).translittération = toLatinTrans.transliterate(tab.get(inbLignes).déclinaison.getText(0, tab.get(inbLignes).déclinaison.getLength())); tab.get(inbLignes).translittération = toLatinTrans.transliterate(tab.get(inbLignes).déclinaison.getText(0, tab.get(inbLignes).déclinaison.getLength())); 
    }

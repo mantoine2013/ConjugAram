@@ -18,7 +18,7 @@ public class JFrameConjugAnFr extends JFrameConjDouble implements ActionListener
     public JFrameConjugAnFr(Conjugueur.C.ConjugAnFr contrôleur) {
         super(contrôleur); 
         if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugAnFr::JFrameConjugAnFr, contrôleur.toString() ="+contrôleur.toString()) ; }
-        frame.setTitle("Conjugueur copt V0.8"); 
+        frame.setTitle("Conjugueur ancien français V0.8"); 
         largeur = LARGEUR ; hauteur = HAUTEUR ;
         jCBAutMot = new JComboBox(Conjugueur.M.ConjugAnFr.cbAutreMotM);
         jPanelAutreMot.add(jCBAutMot) ;  jPanelAutreMot.add(jLabelDéclinaison) ; jCBAutMot.setActionCommand(AUTREMOT) ; jCBAutMot.setSelectedIndex(contrôleur.model.getIAutreMot()) ; jCBAutMot.addActionListener(this) ;
@@ -31,7 +31,7 @@ public class JFrameConjugAnFr extends JFrameConjDouble implements ActionListener
         jPanelMode.add(jComboBoxMode);      jPanelGauche.add(jPanelMode, java.awt.BorderLayout.WEST);      jComboBoxMode.setActionCommand(MODE);     jComboBoxMode.setSelectedIndex(contrôleur.model.getMode());jComboBoxMode.addActionListener(this) ;
         jPanelTemps.add(jComboBoxTemps);    jPanelGauche.add(jPanelTemps, java.awt.BorderLayout.CENTER);  jComboBoxTemps.setActionCommand(TEMPS);   jComboBoxTemps.setSelectedIndex(contrôleur.model.getTemps()) ; jComboBoxTemps.addActionListener(this) ;
         jCBVerbe  = new JComboBox(Conjugueur.M.ConjugAnFr.cbVerbeM)  ;
-        jPanelVerbe.add(jCBVerbe) ;    jPanelVerbe.add(jLabelConjugaison);   jCBVerbe.setActionCommand(VERBE);   jCBVerbe.setSelectedIndex(contrôleur.model.getIndVerbe());jCBVerbe.addActionListener(this) ;
+        jPanelVerbe.add(jCBVerbe) ;    jPanelVerbe.add(jLabelConjugaison);   jCBVerbe.setActionCommand(VERBE) ;   jCBVerbe.setSelectedIndex(contrôleur.model.getIndVerbe()) ; jCBVerbe.addActionListener(this) ;
         jCBVerbe.setRenderer(new ComboBoxVerbeRenderer(FRANÇAIS, ComponentOrientation.LEFT_TO_RIGHT, Conjugueur.M.ConjugAnFr.ATTRIBUT)); 
         jTabConj = new JTableau(Conjugueur.M.ConjugAnFr.conjTableM) ;
         jTabConj.setDefaultRenderer(DéclinaisonStyledDoc.class, new DéclinaisonCellRenderer(FRANÇAIS, ComponentOrientation.LEFT_TO_RIGHT));

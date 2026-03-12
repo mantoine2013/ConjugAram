@@ -8,8 +8,12 @@ import javax.swing.event.TreeModelListener;
 
 
 public class ConjugAraM extends Conjug {
-    protected EventListenerList listenerList = new EventListenerList();
  
+    /**
+     * Fction appelante : Conjugueur.M.ConjugAraM::ConjugAraM
+     * @param mode "Indicatif"
+     * @param temps "Présent"
+     */
     public ConjugAraM (short mode, short temps, short voix, int iVerbe, int iAM){
         super(mode, temps, iVerbe);
         if (DEBUG) { System.out.println("Conjugueur.M.ConjugAraM::ConjugAraM, mode = " +  Conjugueur.M.Conjug.M.i2M(mode).toString()  + ", temps = " + Conjugueur.M.ConjugAraM.ART.i2T(temps).toString() + ", iAM = " + iAM + ", iVerbe = "+ ConjugAraM.cbVerbeM.get(iVerbe).getAttributeValue(ConjugAraM.ATTRIBUT) ) ; } 
@@ -32,9 +36,6 @@ public class ConjugAraM extends Conjug {
  
     public void fireConjugAraMChanged(){
 
-    }
-    public TreeModelListener[] getTreeModelListeners() {
-        return (TreeModelListener[])listenerList.getListeners(TreeModelListener.class);
     }
     public enum ART { Inaccompli((short)0), Accompli((short)1), Futur((short)2) ; 
         private final short it ;                                                  // indice de personne 0, 1, 2,...

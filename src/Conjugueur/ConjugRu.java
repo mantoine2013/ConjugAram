@@ -3,14 +3,18 @@
  * @author MichelANTOINE@hotmail.com
 */
 package Conjugueur;
-
-import Conjugueur.M.Conjug;
 import java.awt.GraphicsEnvironment;
 
 
+/**
+ * Structure MMV inspirée de https://baptiste-wicht.developpez.com/tutoriels/conception/mvc/
+ */
 public class ConjugRu {
 
     /**
+     * Fctions appelées Conjugueur.M.ConjugRu::ConjugRu, Conjugueur.C.ConjugRu::ConjugRu
+     * Algorithme
+     * 1.crée un nouveau modèle en appelant Conjugueur.M.ConjugRu
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -21,15 +25,15 @@ public class ConjugRu {
         }
         if (!found) { System.out.println("la police " + NOMPOLICY + " n'est pas installée !") ; return ;    }
         Conjugueur.M.ConjugRu modèle = new Conjugueur.M.ConjugRu(
-                Conjug.M.Indicatif.im(),                                        // mode
-                Conjugueur.M.ConjugAnFr.TAnFr.PasséSimple.it(),                     // temps
-                Conjugueur.M.ConjugAnFr.V.Active.iv(),                          // voix
-                Conjugueur.M.ConjugAnFr.cbVerbeM.getSize()/2,          // iVerbe
-                Conjugueur.M.ConjugAnFr.cbAutreMotM.getSize()/2,
-                Conjugueur.M.ConjugAnFr.N.Singulier.in());
+                Conjugueur.M.ConjugRu.RUM.Indicatif.im(),                       // mode
+                Conjugueur.M.ConjugRu.RUT.Futur.it(),                     // temps
+                Conjugueur.M.ConjugRu.V.Active.iv(),                          // voix
+                Conjugueur.M.ConjugRu.cbVerbeM.getSize()/2,                     // iVerbe
+                Conjugueur.M.ConjugRu.cbAutreMotM.getSize()/2,
+                Conjugueur.M.ConjugRu.N.Singulier.in());
         Conjugueur.C.ConjugRu contrôleur = new Conjugueur.C.ConjugRu(modèle);
         contrôleur.displayVues(); 
     }    
     public  static final String NOMPOLICY = "PT Mono" ;
-    private static final boolean DEBUG = true;    
+    private static final boolean DEBUG = false ;    
 }

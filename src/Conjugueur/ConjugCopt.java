@@ -4,7 +4,6 @@
 */
 package Conjugueur;
 import Conjugueur.M.Conjug;
-import static Conjugueur.M.ConjugCopt.comboBoxVerbeM;
 import java.awt.GraphicsEnvironment;
 import javax.swing.text.BadLocationException;
 

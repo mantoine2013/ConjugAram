@@ -10,8 +10,6 @@ public class ConjugCopt extends Conjug {
      * Fction appelante : Conjugueur.M.ConjugCopt::ConjugCopt
      * @param mode "Indicatif", 
      * @param temps "Présent"
-     * @param iAM indice d'un autre mot
-     * @param nb
      */
     public ConjugCopt(short mode, short temps, short voix, int iVerbe){
         super(mode, temps, iVerbe);

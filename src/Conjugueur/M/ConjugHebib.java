@@ -8,6 +8,11 @@ import javax.swing.event.EventListenerList;
 
 public class ConjugHebib extends Conjug {
      
+    /**
+     * Fction appelante : Conjugueur.M.ConjugGrecA::ConjugGrecA
+     * @param iAM indice d'un autre mot
+     * @param nb
+     */
     public ConjugHebib (short mode, short shème, int iVerbe){
         super(mode, shème, iVerbe);
         if (DEBUG) System.out.println("Conjugueur.M.ConjugHebib::ConjugHebib, mode = " +  Conjugueur.M.ConjugHebib.HBM.i2M(mode).toString()  + ", shème = " + Conjugueur.M.ConjugHebib.HBS.i2S(shème).toString() + ", iAM = " + iAM + ", iVerbe = " + cbVerbeM.get(iVerbe).getAttributeValue(ConjugHebib.ATTRIBUTVERBE)) ;

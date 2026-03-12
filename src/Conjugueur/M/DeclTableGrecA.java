@@ -16,7 +16,7 @@ import javax.swing.text.StyleConstants;
 
 public class DeclTableGrecA extends ConjTable {
     
-        /**
+   /**
      * Genre        | f  |f |f
      * Terminaison  | α  |η |α
      * du nominatif |    |ή |

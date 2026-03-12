@@ -9,13 +9,12 @@ import javax.swing.event.TreeModelListener;
 
 public class Conjug {
     protected int iAM, iVerbe ;                                                   // indice autre mot, verbe
-    protected short écriture, état, mode, nb, schème, temps, thème, voix ;
+    protected short aspect, écriture, état, mode, nb, indNC, schème, temps, thème, voix ;
 
     /**
      * Fction appelante : Conjugueur.M.Conjug::Conjug
      * @param mode "Indicatif",
      * @param temps "Présent"
-     * @param iVerbe indice de verbe
      */
     public Conjug(short mode, short temps, int iVerbe) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::Conjug, mode = " + mode + ", temps = " + temps + ", iVerbe = " + iVerbe) ; }
@@ -37,28 +36,36 @@ public class Conjug {
         listeners.add(VolumeListener.class, listener);
     }
 
+    /**
+     * Fction appelante : Conjugueur.M.Conjug::setIVerbe
+     * @param p D ou G
+     */
     public void firePChanged(String p){
         if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::firePChanged, p = " + p) ; }
-        ConjugListener[] listenerList = (ConjugListener[])listeners.getListeners(ConjugListener.class);
- 
-        for(ConjugListener listener : listenerList){
+        for(ConjugListener listener : (ConjugListener[])listeners.getListeners(ConjugListener.class)){
             listener.PChanged(new PanelChangedEvent(this, p));
         }
     }                                                                           // firePChanged
     
+    public short    getAspect() {  return aspect ;  }
     public short    getÉcriture() {  return écriture ;   }
     public short    getÉtat() {    return état ;    }
     public int      getIAutreMot() { return iAM ; }
     public int      getIndVerbe() {  return iVerbe;    }
     public short    getMode() {  return mode;  }
-    public short    getNb() { return nb ;  }  
+    public short    getNb() { return nb ;  } 
+    public short    getNConj()  { return indNC ;  }
     public short    getSchème() { return schème ;  }
     public short    getTemps() {   return temps ;   }
     public short    getThème() {  return thème ; }
     public int      getVolume() {  return 0 ; /* provisoire*/    }
-    public short getVoix() {     return voix ;    }
+    public short    getVoix() {     return voix ;    }
     public TreeModelListener[] getTreeModelListeners() {
         return (TreeModelListener[])listenerList.getListeners(TreeModelListener.class);
+    }
+    public void setAspect(short aspect) {
+       if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setAspect, aspect = "+ aspect) ; }
+        this.aspect = aspect;
     }
     public void setÉcriture(short écriture) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setÉcriture, écriture = "+ écriture) ; }
@@ -73,18 +80,29 @@ public class Conjug {
         this.iAM = iAM;
         firePChanged("D");
    }   
+    /**
+     * Fction appelante : Conjugueur.C.Conjug::notifyVAChanged
+     */
     public void setIVerbe(int iVerbe) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setIVerbe, iVerbe = " + iVerbe) ; }
         this.iVerbe = iVerbe;
         firePChanged("G");
     }   
 
+    /**
+     * Fction appelante : Conjugueur.C.Conjug::notifyVAChanged
+     */
     public void setMode(short mode) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setMode, mode = "+ mode) ; }
         this.mode = mode ;
         firePChanged("G");
     }
 
+    public void setNConj (short indNC) {
+       if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setNConj, indNC = " + indNC) ; }
+        this.indNC = indNC ;
+    }   
+    
     public void setNb(short indNb) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setNb, indNb = " + indNb) ; }
         this.nb = indNb ;

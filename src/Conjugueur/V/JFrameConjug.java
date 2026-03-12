@@ -31,6 +31,7 @@ public class JFrameConjug implements ConjugListener {
         jPanelGauche.setLayout(new java.awt.BorderLayout());
         jPanelMode.setLayout(new FlowLayout());     jPanelMode.add(jLabelMode);
         jPanelNb.setLayout(new FlowLayout()) ;          jPanelNb.add(JLabelNb) ;   
+        jPanelAspects.setLayout(new FlowLayout());    jPanelAspects.add(jLabelAspect);
         jPanelSchème.setLayout(new FlowLayout()) ; jPanelSchème.add(JLABELSCHEME) ;
         jPanelThèmes.setLayout(new FlowLayout());    jPanelThèmes.add(jLabelThèmes);
         jPanelVerbe.setLayout(new FlowLayout()) ; jPanelVerbe.add(JLABELVERBE) ;
@@ -62,7 +63,7 @@ public class JFrameConjug implements ConjugListener {
         frame.setVisible(true);
     }
     public void actionPerformed(ActionEvent e) {
-        if (DEBUG) { System.out.println("Conjugueur.Vue.JFrameConjug::actionPerformed") ; }
+        if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjug::actionPerformed, e.getActionCommand() = "+ e.getActionCommand()) ; }
         contrôleur.notifyVAChanged(e.getActionCommand(), ((JComboBox) e.getSource()).getSelectedIndex()) ;
     }
     public Conjugueur.C.Conjug getContrôleur() { return contrôleur ;  }
@@ -71,14 +72,14 @@ public class JFrameConjug implements ConjugListener {
     public static short hauteur, largeur, TAILLEPOLICE = 20, TAILLEPOLICEFRANÇAIS = 19, TAILLEPOLICEDECLINAISONS = 25 ;
     public static int tpl ;
     public Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-    public final static String AUTREMOT= "A", ÉCRITURE = "ÉC", ÉTAT = "ÉT", EXPORT = "EX", MODE = "M", NOMBRE = "N", NOMPOLTNR = "Times New Roman", NOMPOLICEDECLINAISONS = "Serto Jerusalem", POLICE = "P", SCHEME = "S", TEMPS = "T", THÈME = "TH", VERBE = "V", VOIX = "VO" ;
+    public final static String ASPECT= "AS", AUTREMOT= "AU", ÉCRITURE = "ÉC", ÉTAT = "ÉT", EXPORT = "EX", MODE = "M", NOMBRE = "N", NOMPOLTNR = "Times New Roman", NOMPOLICEDECLINAISONS = "Serto Jerusalem", POLICE = "P", SCHEME = "S", TEMPS = "T", THÈME = "TH", VERBE = "V", VOIX = "VO" ;
     public static final Font FRANÇAIS = new Font (NOMPOLTNR, Font.PLAIN, TAILLEPOLICE), HÉBREU = new Font (NOMPOLTNR, Font.PLAIN, TAILLEPOLICE) ;
     public static Font SYRIAC = new Font (NOMPOLICEDECLINAISONS, Font.PLAIN, TAILLEPOLICEDECLINAISONS);
-    public static JLabel jLabelAutreMot = new JLabel("Autre mot : "), jLabelConjugaison = new JLabel("Conjugaison"), jLabelDéclinaison = new JLabel("Déclinaison"), JLABELÉCRITURE = new JLabel("Écriture : "), JLabelÉtat = new JLabel("État : "), JLabelForme = new JLabel(), JLabelNb = new JLabel("Nombre : "), jLabelMode = new JLabel("Mode : "), JLABELSCHEME = new JLabel("Schème :"), JLABELTEMPS = new JLabel("Temps : "), jLabelTemps = new JLabel("Temps : "), jLabelThèmes = new JLabel("Thèmes : "), JLABELVERBE = new JLabel("Verbe : "), jLabelVerbe = new JLabel("Verbe : "), jLabelVoix = new JLabel("Voix : ") ;
+    public static JLabel jLabelAspect = new JLabel("Aspect : "), jLabelAutreMot = new JLabel("Autre mot : "), jLabelConjugaison = new JLabel("Conjugaison"), jLabelDéclinaison = new JLabel("Déclinaison"), JLABELÉCRITURE = new JLabel("Écriture : "), JLabelÉtat = new JLabel("État : "), JLabelForme = new JLabel(), JLabelNb = new JLabel("Nombre : "), jLabelMode = new JLabel("Mode : "), JLABELSCHEME = new JLabel("Schème :"), JLABELTEMPS = new JLabel("Temps : "), jLabelTemps = new JLabel("Temps : "), jLabelThèmes = new JLabel("Thèmes : "), JLABELVERBE = new JLabel("Verbe : "), jLabelVerbe = new JLabel("Verbe : "), jLabelVoix = new JLabel("Voix : ") ;
     public static JFrame frame = new JFrame () ;
     @SuppressWarnings("unchecked")
     protected static JPanel contentPane = new JPanel() ;
-    public static final JPanel jPanelAutreMot = new JPanel(), jPanelDéclinaison = new JPanel(), jPanelÉcriture = new JPanel(), jPanelÉtat = new JPanel(), jPanelNb = new JPanel(), jPanelDroit = new JPanel(), jPanelGauche = new JPanel(), jPanelMode = new JPanel(), jPanelSchème = new JPanel(), jPanelTemps = new JPanel(), jPanelThèmes = new JPanel(), jPanelVerbe = new JPanel(), jPanelVoix = new JPanel();
+    public static final JPanel jPanelAspects = new JPanel(), jPanelAutreMot = new JPanel(), jPanelDéclinaison = new JPanel(), jPanelÉcriture = new JPanel(), jPanelÉtat = new JPanel(), jPanelNb = new JPanel(), jPanelDroit = new JPanel(), jPanelGauche = new JPanel(), jPanelMode = new JPanel(), jPanelSchème = new JPanel(), jPanelTemps = new JPanel(), jPanelThèmes = new JPanel(), jPanelVerbe = new JPanel(), jPanelVoix = new JPanel();
     public  JSplitPane splitPane;
     public JTableau jTabConj, jTabDecl  ;
     protected JComboBox jCBAutMot, jCBVerbe ;
