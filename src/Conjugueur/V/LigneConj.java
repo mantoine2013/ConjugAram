@@ -8,7 +8,7 @@ public class LigneConj {                               // ligne de conjugaison
 
     /**
      * Fonction : ligne ds le tab des déclinaison
-     * Fction appelante : Conjugueur.M.ConjTableM::AjouterLigne
+     * Fction appelante : Conjugueur.M.ConjTable::AjouterLigne
      * @param plibpersonne libellé de la personne : "1è. s.", "2è. s.", ...
      * @param PoliceDéclinaison police 2è col
      * @param alignement StyleConstants.ALIGN_RIGHT
