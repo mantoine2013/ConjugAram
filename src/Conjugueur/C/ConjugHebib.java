@@ -19,5 +19,5 @@ public class ConjugHebib  extends Conjug {
         addListenersToModèle();
     }
      
-    private  final boolean DEBUG = false;          
+    private  final boolean DEBUG = false ;          
 }
