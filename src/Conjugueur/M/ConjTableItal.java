@@ -17,7 +17,7 @@ public class ConjTableItal extends ConjTable {
     */
     @Override
     public void MAJConj (Conjugueur.C.Conjug contrôleur) {
-       if (DEBUG) { System.out.println ("ConjTableItal::MAJConj, Verbe = "+ ConjugItal.comboBoxVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue("infinitif") +", Conjugueur.M.ConjugItalM.T.i2T(contrôleur.model.getTemps()).toString() = " +Conjugueur.M.ConjugItal.T.i2T(contrôleur.model.getTemps()).toString()) ; }
+       if (DEBUG) { System.out.println ("Conjugueur.M.ConjTableItal::MAJConj, Verbe = "+ ConjugItal.comboBoxVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue("infinitif") +", Conjugueur.M.ConjugItalM.T.i2T(contrôleur.model.getTemps()).toString() = " +Conjugueur.M.ConjugItal.T.i2T(contrôleur.model.getTemps()).toString()) ; }
         this.contrôleur = contrôleur ; 
         try {
             vider();
@@ -41,7 +41,7 @@ public class ConjTableItal extends ConjTable {
                                     CopierIrrégularités (Conjugueur.M.ConjugItal.M.Indicatif.toString(), personne) ; 
                                 else {                                  // verbe régulier
                                     nbcons = 0 ;
-                                    inbLignes = AjouterLigne(personne.ip(), personne.lp(), JFrameConjugItal.ITALIEN, StyleConstants.ALIGN_RIGHT) ;
+                                    inbLignes = AjouterLigne(personne.lp(), JFrameConjugItal.ITALIEN, StyleConstants.ALIGN_LEFT) ;
                                     DéclinerIndicatifRégulièrement (personne) ;    
                                 }                                       // verbe régulier
                             }                                           // ttes les personnes
