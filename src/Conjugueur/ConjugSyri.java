@@ -52,5 +52,5 @@ public final class ConjugSyri extends JPanel  {
         public String spip() { return suffixes [ConjÉtatSyriM.getÉtat().iét()] ; }          // renvoie le suffixe d'un groupe donné   
     }                                                                           // SYÉ
     
-    public static final boolean DEBUG = true;
+    public static final boolean DEBUG = false ;
 }                                                                                  // ConjugSyri
