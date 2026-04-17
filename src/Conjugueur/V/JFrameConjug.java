@@ -73,7 +73,7 @@ public class JFrameConjug implements ConjugListener {
     public static int tpl ;
     public Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     public final static String ASPECT= "AS", AUTREMOT= "AU", ÉCRITURE = "ÉC", ÉTAT = "ÉT", EXPORT = "EX", MODE = "M", NOMBRE = "N", NOMPOLTNR = "Times New Roman", NOMPOLICEDECLINAISONS = "Serto Jerusalem", POLICE = "P", SCHEME = "S", TEMPS = "T", THÈME = "TH", VERBE = "V", VOIX = "VO" ;
-    public static final Font FRANÇAIS = new Font (NOMPOLTNR, Font.PLAIN, TAILLEPOLICE), HÉBREU = new Font (NOMPOLTNR, Font.PLAIN, TAILLEPOLICE) ;
+    public static final Font FRANÇAIS = new Font (NOMPOLTNR, Font.PLAIN, TAILLEPOLICE) ;
     public static Font SYRIAC = new Font (NOMPOLICEDECLINAISONS, Font.PLAIN, TAILLEPOLICEDECLINAISONS);
     public static JLabel jLabelAspect = new JLabel("Aspect : "), jLabelAutreMot = new JLabel("Autre mot : "), jLabelConjugaison = new JLabel("Conjugaison"), jLabelDéclinaison = new JLabel("Déclinaison"), JLABELÉCRITURE = new JLabel("Écriture : "), JLabelÉtat = new JLabel("État : "), JLabelForme = new JLabel(), JLabelNb = new JLabel("Nombre : "), jLabelMode = new JLabel("Mode : "), JLABELSCHEME = new JLabel("Schème :"), JLABELTEMPS = new JLabel("Temps : "), jLabelTemps = new JLabel("Temps : "), jLabelThèmes = new JLabel("Thèmes : "), JLABELVERBE = new JLabel("Verbe : "), jLabelVerbe = new JLabel("Verbe : "), jLabelVoix = new JLabel("Voix : ") ;
     public static JFrame frame = new JFrame () ;
