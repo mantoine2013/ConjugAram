@@ -1,5 +1,5 @@
 /**
- * Initialise les variables de l'hébreu moderne
+ * Initialise les variables de l'hébreu biblique
  * @author MichelANTOINE@hotmail.com
  */
 package Conjugueur.M;
@@ -9,13 +9,13 @@ import javax.swing.event.EventListenerList;
 public class ConjugHebib extends Conjug {
      
     /**
-     * Fction appelante : Conjugueur.M.ConjugGrecA::ConjugGrecA
-     * @param iAM indice d'un autre mot
-     * @param nb
+     * Fction appelante : Conjugueur.ConjugHebib::main
+     * @param mode "Indicatif"
+     * @param shème "Hifil" ou "Hitpael" ou "Hofal" ou "Nifal" ou "Piel" ou "Polel" ou "Pual" ou "Qal" 
      */
     public ConjugHebib (short mode, short shème, int iVerbe){
         super(mode, shème, iVerbe);
-        if (DEBUG) System.out.println("Conjugueur.M.ConjugHebib::ConjugHebib, mode = " +  Conjugueur.M.ConjugHebib.HBM.i2M(mode).toString()  + ", shème = " + Conjugueur.M.ConjugHebib.HBS.i2S(shème).toString() + ", iAM = " + iAM + ", iVerbe = " + cbVerbeM.get(iVerbe).getAttributeValue(ConjugHebib.ATTRIBUTVERBE)) ;
+        if (DEBUG) { System.out.println("Conjugueur.M.ConjugHebib::ConjugHebib, mode = " +  Conjugueur.M.ConjugHebib.HBM.i2M(mode).toString()  + ", shème = " + Conjugueur.M.ConjugHebib.HBS.i2S(shème).toString() + ", iAM = " + iAM + ", iVerbe = " + cbVerbeM.get(iVerbe).getAttributeValue(ConjugHebib.ATTRIBUTVERBE)) ; }
         setSchème(shème) ;
         conjTableM = new ConjTableHebib();
         declTableM = new DeclTableHebib();
@@ -26,7 +26,7 @@ public class ConjugHebib extends Conjug {
      * Shèmes pour l'hébreu biblique
      */
     public enum HBS {
-        Qal((short)0, new char []{'\u05B8','\u05B7','\u0000'}, new String []{"", ""}), Piel ((short)1, new char []{'\u05B4','\u05BC','\u0000'}, new String []{"", ""}), Hifil((short)2, new char []{'\u05B0','\u05B4','\u0000'}, new String []{"הִ", ""}), Pual ((short)3,new char []{'\u05BB','\u05BC','\u0000'}, new String []{"הִ", ""}), Hofal ((short)4, new char []{'\u05B0','\u05B7','\u0000'}, new String []{"הִ", ""}), Nifal ((short)5, new char []{'\u05B0','\u05B7','\u0000'}, new String []{"נִ", ""}), Hitpael ((short)6, new char []{'\u05B7','\u05BC','\u0000'}, new String []{"הִת", ""}) ;
+        Qal((short)0, new char []{'\u05B8','\u05B7','\u0000'}, new String []{"", ""}), Piel ((short)1, new char []{'\u05B4','\u05BC','\u0000'}, new String []{"", ""}), Hifil((short)2, new char []{'\u05B0','\u05B4','\u0000'}, new String []{"הִ", ""}), Pual ((short)3,new char []{'\u05BB','\u05BC','\u0000'}, new String []{"הִ", ""}), Hofal ((short)4, new char []{'\u05B0','\u05B7','\u0000'}, new String []{"הִ", ""}), Nifal ((short)5, new char []{'\u05B0','\u05B7','\u0000'}, new String []{"נִ", ""}), Hitpael ((short)6, new char []{'\u05B7','\u05BC','\u0000'}, new String []{"הִת", ""}), Polel ((short)7, new char []{'\u05B4','\u05BC','\u0000'}, new String []{"", ""}) ;
         private final short is;                                                   // indice de schème 0, 1, 2,...
         public final char[] accents ;                                        // accents sur les consonnes
         public final String [] pairePS;
@@ -64,7 +64,7 @@ public class ConjugHebib extends Conjug {
     public static final DefaultComboBoxModel<HBS> cModelSchème = new DefaultComboBoxModel<>(HBS.values()) ; 
     public static final ModèleMenu1 cbVerbeM = new ModèleMenu1(XMLSOURCE, BALISÉNTRÉE, ATTRIBUTVERBE, LANGUE) ; 
     public static final ModèleMenu1 comboBoxAutreMotM = new ModèleMenu1(XMLSOURCE, BALISAUTREMOT, ATTRIBUTMOT, LANGUE) ;
-    private static final boolean DEBUG = false;    
+    private static final boolean DEBUG = false ;    
 }
 
 
