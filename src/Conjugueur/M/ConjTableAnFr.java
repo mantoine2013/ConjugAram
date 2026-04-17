@@ -59,7 +59,7 @@ public class ConjTableAnFr extends ConjTable  {
                                     CopierIrrégularités (Conjugueur.M.ConjugAnFr.M.Indicatif.toString(), personne, contrôleur) ; 
                                 else {                                  // verbe régulier
                                     nbcons = 0 ;
-                                    inbLignes = AjouterLigne(personne.ip(), personne.lp(), JFrameConjugAnFr.FRANÇAIS, StyleConstants.ALIGN_RIGHT) ;
+                                    inbLignes = AjouterLigne( personne.lp(), JFrameConjugAnFr.FRANÇAIS, StyleConstants.ALIGN_RIGHT) ;
                                     Copier(personne.lap(), DéclinaisonStyledDoc.stylepp);  Espace () ;
                                     DéclinerPasséSimpleRégulièrement (personne, contrôleur) ;    
                                 }                                       // verbe régulier
