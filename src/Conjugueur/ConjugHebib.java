@@ -9,11 +9,11 @@ import javax.swing.text.BadLocationException;
 public final class ConjugHebib  {                    
 
     public static void main(String[] args) throws BadLocationException {
-        if (args.length == 1) defargs = args ;                                  // des arguments sont là                                                                     // les arguments n'étaient pas là
+        if (args.length == 1) { defargs = args ; }                                 // des arguments sont là                                                                     // les arguments n'étaient pas là
             Conjugueur.M.ConjugHebib modèle = new Conjugueur.M.ConjugHebib(
-                    Conjugueur.M.ConjugHebib.HBM.Qatal.im(),                    // mode + temps
-                    Conjugueur.M.ConjugHebib.HBS.Piel.is(),                     // shème
-                4/*cbVerbeM.getSize()/2*/
+                Conjugueur.M.ConjugHebib.HBM.Qatal.im(),                    // mode + temps
+                Conjugueur.M.ConjugHebib.HBS.Qal.is(),                     // shème
+                10/*Conjugueur.M.ConjugHebib.cbVerbeM.getSize()/2*/
             );
             Conjugueur.C.ConjugHebib contrôleur = new Conjugueur.C.ConjugHebib(modèle);
             contrôleur.displayVues();
