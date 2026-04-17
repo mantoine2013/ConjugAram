@@ -11,13 +11,13 @@ import javax.swing.*;
 public class JFrameConjugItal  extends JFrameConjug implements ActionListener {
 
     /**
-     * Fction appelante : Conjugueur.Contrôleur.ConjugItal::ConjugItal
+     * Fction appelante : Conjugueur.C.ConjugItal::ConjugItal
      * @param contrôleur 
      */
     @SuppressWarnings("unchecked")
     public JFrameConjugItal(Conjugueur.C.Conjug contrôleur) {
        super(contrôleur); 
-        if (DEBUG) System.out.println("Conjugueur.Vue.JFrameConjugItal::JFrameConjugItal") ;
+        if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugItal::JFrameConjugItal") ; }
         frame.setTitle("Conjugueur Italien V0.8");
         frame.setSize(LARGEUR, HAUTEUR);
 //        TableColumn col0 = jTabConj.getColumnModel().getColumn(0);        col0.setPreferredWidth(30);
@@ -47,7 +47,7 @@ public class JFrameConjugItal  extends JFrameConjug implements ActionListener {
  
     @Override
     public void display() {
-        if (DEBUG) System.out.println("Conjugueur.Vue.ConjugHebibContrôleur::display") ;
+        if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugItal::display") ; }
         frame.setLocation(screenSize.width/2 - (JFrameConjug.frame.getSize().width/2),screenSize.height/2 - (JFrameConjug.frame.getSize().height/2));
         frame.setVisible(true);
     }
