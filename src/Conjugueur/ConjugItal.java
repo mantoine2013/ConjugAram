@@ -21,5 +21,5 @@ public class ConjugItal {
         contrôleur.displayVues(); 
     }                                                                         // AjouterPersonnesEtRacines
 
-    public static final boolean DEBUG = true;
+    public static final boolean DEBUG = false ;
 }                                                                                // ConjugAram
