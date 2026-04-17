@@ -6,6 +6,7 @@ import com.ibm.icu.text.Transliterator;
 import java.awt.Dimension;
 import java.awt.BorderLayout;
 import java.awt.ComponentOrientation;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.DefaultComboBoxModel;
@@ -115,8 +116,9 @@ public class JFrameConjugHebib extends JFrameConjug implements ActionListener {
     public static final short HAUTEUR = 550, LARGEUR = 1000, HAUTEURPANNEAU = 20, LARGEURPANNEAU = 10, PRÉFIXE = 0, SUFFIXE = 1 ;
     public final static String  BEGADKEPAT = "בגדכפת", GUTTURALES = "אהחע", MATRESLECTIONIS = "יוה", ATTRIBUTVERBE = "infinitif", BALISÉNTRÉE = "verhb", ETI_FR2MS = "2è. m. s.", ETI_FR2FS = "2è. f. s.", ETI_FR3MS = "3è. m. s.", ETI_FR3FS = "3è. f. s.", HEBIB_TO_LATIN = "Hebrew-Latin", NOMPOLICE = "Times New Roman", XMLSOURCE = "ConjugSemi.xml" ;
     public static  final Transliterator hebToLatinTrans = Transliterator.getInstance(HEBIB_TO_LATIN);
+    public static final Font HÉBREU = new Font (NOMPOLICE, Font.PLAIN, TAILLEPOLICE) ;
 
-    private static final boolean DEBUG = false;    
+    private static final boolean DEBUG = false ;    
     
     
     
