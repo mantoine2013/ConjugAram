@@ -11,7 +11,7 @@ public class ConjugItal extends Conjug {
      * Fction appelante : Conjugueur.ConjugItal::main
      */
     public ConjugItal (Conjugueur.M.ConjugItal model){
-        if (DEBUG) { System.out.println("Conjugueur.Contrôleur.ConjugItal::ConjugItal") ; }
+        if (DEBUG) { System.out.println("Conjugueur.C.ConjugItal::ConjugItal") ; }
         this.model = model ; 
         fieldVue = new JFrameConjugItal(this); 
         addListenersToModèle();
