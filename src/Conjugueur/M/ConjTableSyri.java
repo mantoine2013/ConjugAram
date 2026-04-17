@@ -154,9 +154,9 @@ public class ConjTableSyri extends ConjTable  {
     * 2. Si le préfixe existe, l'ajouter
     */
     private void DéclinerRégulièrement(SYP personne, Conjugueur.C.Conjug contrôleur) throws BadLocationException {
-        if (DEBUG) System.out.println("ConjugSyri::DéclinerRégulièrement, personne = " + personne.lp+", Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème()) = "+Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème())) ;
+        if (DEBUG) System.out.println("Conjugueur.M.ConjugSyri::DéclinerRégulièrement, personne = " + personne.lp+", Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème()) = "+Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème())) ;
         if (!"0".equals(personne.pairePS[Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème()).is()][contrôleur.model.getTemps()][ConjClasseSyriM.getClasse().ic()][PRÉFIXE])) {
-            inbLignes = AjouterLigne(personne.ip(), personne.lp(), Conjugueur.V.JFrameConjug.SYRIAC, StyleConstants.ALIGN_RIGHT) ; nbcons = 0 ;
+            inbLignes = AjouterLigne(personne.lp(), Conjugueur.V.JFrameConjug.SYRIAC, StyleConstants.ALIGN_RIGHT) ; nbcons = 0 ;
             Copier(inbLignes, personne.lhp(), DéclinaisonStyledDoc.stylepp); Espace (inbLignes) ;
             if (!personne.pairePS[Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème()).is()][contrôleur.model.getTemps()][ConjClasseSyriM.getClasse().ic()][PRÉFIXE].isEmpty()) Préfixer(inbLignes, personne.pairePS[Conjugueur.M.ConjugSyri.SYS.i2S(contrôleur.model.getSchème()).is()][contrôleur.model.getTemps()][ConjClasseSyriM.getClasse().ic()][PRÉFIXE]) ;
 
