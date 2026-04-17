@@ -14,35 +14,41 @@ public class ConjTableHebib extends ConjTable  {
 
     /**
      * Fonction : MAJConj
-     * Fonctions appelantes : Conjugueur.Vue.JFrameConjugHebib::JFrameConjugHebi
+     * Fonctions appelantes : Conjugueur.V.JFrameConjugHebib::JFrameConjugHebi
      * Algorithme : 
      * 1. Remettre le tableau de conjugaison à zéro
      * 2. Pour ttes les personnes faire
      * 2.1 Si le verbe est régulier
      * 2.1.1 S'aiguiller selon le mode
-     * 2.1.1.1 Mode Yiqtol
-     * 2.1.1.1.1 Préfixer suivant la personne en appelant "ppiyi"
-     * 2.1.1.1.2 Si le verbe est régulier alors
-     * 2.1.1.1.2.1  Créer une ligne pour chaque déclinaison et y placer les libellés des personnes à conjuguer : masc sing, masc plur, fém sing, fém plur en appelant la fction "AjouterPersonnes ()"
-     * 2.1.1.1.2.2 Pour ts les caractères de l'infinitif faire
-     * 2.1.1.1.2.2.1 Si c'est une consonne alors
-     * 2.1.1.1.2.2.1.1 Incrémenter compteur de consonnes
-     * 2.1.1.1.2.2.1.2 Insérer un "וֹ" en 2è position s'il n'est pas déjà présent
-     * 2.1.1.1.2.2.1.3 Copier le caractère en appelant "CopierCaractèRacine"
-     * 2.1.1.1.3 Suffixer suivant la personne en appelant "ppiyi"
+     * 2.1.1.1 Mode Qatal
+     * 2.1.1.1.1 Si le verbe est régulier alors
+     * 2.1.1.1.2 Pour chaque personne faire
+     * 2.1.1.1.2.1 Créer une ligne pour chaque déclinaison en appelant la fction "AjouterLigne"
+     * 2.1.1.1.2.2 Y placer les libellés des personnes à conjuguer
+     * 2.1.1.2 Mode Yiqtol
+     * 2.1.1.2.1 Préfixer suivant la personne en appelant "ppiyi"
+     * 2.1.1.2.2 Si le verbe est régulier alors
+     * 2.1.1.2.3 Pour chaque personne faire
+     * 2.1.1.2.3.1  Créer une ligne pour chaque déclinaison et y placer les libellés des personnes à conjuguer : masc sing, masc plur, fém sing, fém plur en appelant la fction "AjouterPersonnes ()"
+     * 2.1.1.2.3.2 Pour ts les caractères de l'infinitif faire
+     * 2.1.1.2.3.2.1 Si c'est une consonne alors
+     * 2.1.1.2.3.2.1.1 Incrémenter compteur de consonnes
+     * 2.1.1.2.3.2.1.2 Insérer un "וֹ" en 2è position s'il n'est pas déjà présent
+     * 2.1.1.2.3.2.1.3 Copier le caractère en appelant "CopierCaractèRacine"
+     * 2.1.1.2.3 Suffixer suivant la personne en appelant "ppiyi"
      */
     @Override
     public void MAJConj(Conjugueur.C.Conjug contrôleur) {
-       if (DEBUG) System.out.println ("Conjugueur.M.ConjTableHebib::MAJConj, Schème = " + Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()) + ", selectedIndVerbe = " + Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ATTRIBUTVERBE) + ", Mode = " + Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).toString()) ;
+        if (DEBUG) { System.out.println ("Conjugueur.M.ConjTableHebib::MAJConj, Schème = " + Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()) + ", selectedIndVerbe = " + Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ATTRIBUTVERBE) + ", Mode = " + Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).toString()) ; }
         this.contrôleur = contrôleur ; 
         switch (Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème())) {                                           // Schème
-                        case Qal -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme simple") ;  }                                                               // Qal
-                        case Piel -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme intensive") ; }                                                               // Piel
-                        case Hifil -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme causative") ;}                                                               // Hifil
-                        case Pual -> { JFrameConjug.jLabelVoix.setText("Voix passive"); JFrameConjugHebib.JLabelForme.setText("Forme intensive") ;}                                                               // Pual
-                        case Hofal -> { JFrameConjug.jLabelVoix.setText("Voix passive"); JFrameConjugHebib.JLabelForme.setText("Forme causative") ;}                                                               // Hofal
-                        case Nifal -> {JFrameConjug.jLabelVoix.setText("Voix réfléchie"); JFrameConjugHebib.JLabelForme.setText("Forme simple") ;}                                                               // Nifal
-                        case Hitpael -> {JFrameConjug.jLabelVoix.setText("Voix réfléchie"); JFrameConjugHebib.JLabelForme.setText("Forme intensive") ;}                                                               // Hitpael
+            case Qal -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme simple") ;  }                                                               // Qal
+            case Piel, Polel -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme intensive") ; }                                                               // Piel
+            case Hifil -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme causative") ;}                                                               // Hifil
+            case Pual -> { JFrameConjug.jLabelVoix.setText("Voix passive"); JFrameConjugHebib.JLabelForme.setText("Forme intensive") ;}                                                               // Pual
+            case Hofal -> { JFrameConjug.jLabelVoix.setText("Voix passive"); JFrameConjugHebib.JLabelForme.setText("Forme causative") ;}                                                               // Hofal
+            case Nifal -> {JFrameConjug.jLabelVoix.setText("Voix réfléchie"); JFrameConjugHebib.JLabelForme.setText("Forme simple") ;}                                                               // Nifal
+            case Hitpael -> {JFrameConjug.jLabelVoix.setText("Voix réfléchie"); JFrameConjugHebib.JLabelForme.setText("Forme intensive") ;}                                                               // Hitpael
         }                                                                   // Schème
        try {
             vider();
@@ -51,7 +57,8 @@ public class ConjTableHebib extends ConjTable  {
                 case Qatal -> {
                     if (déclinaisonChildren.isEmpty()) {             // verbe régulier
                         for (HBP personne : HBP.values()) {                             // pour ttes les personnes
-                            inbLignes = AjouterLigne(personne.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ; nbcons = 0 ;   
+                            inbLignes = AjouterLigne(personne.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ; nbcons = 0 ;   
+                            Copier(personne.lhp(), DéclinaisonStyledDoc.stylepp);  Espace () ;
                             Préfixer(Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).pairePS[PRÉFIXE]) ;
                                for (char c : Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ATTRIBUTVERBE).toCharArray()){
                                     if (Consonne(c)) {                                // le caractère courant est une consonne
@@ -61,8 +68,8 @@ public class ConjTableHebib extends ConjTable  {
 //                                        Copier (Character.toString(personne.accents [Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.getMode().im()] [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
                                     }                                                 // le caractère courant était une consonne
                                 }                                                    // pour ts les caractères
+                            AjouterTranslittération(hebToLatinTrans) ;
                         }                                               // verbe régulier
-                                AjouterTranslittération(hebToLatinTrans) ;
                     }                                           // ttes les personnes
                     else {                                              // verbe irrégulier
                           CopierIrrégularités () ;
@@ -72,7 +79,7 @@ public class ConjTableHebib extends ConjTable  {
                     JFrameConjug.jLabelMode.setText("Mode Indicatif");
                     if (déclinaisonChildren.isEmpty()) {             // verbe régulier
                         for (HBP personne : HBP.values()) {                             // pour ttes les personnes
-                            inbLignes = AjouterLigne(personne.ip(), personne.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ; nbcons = 0 ;   
+                            inbLignes = AjouterLigne(personne.ip(), personne.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ; nbcons = 0 ;   
                             if (!"0".equals(personne.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).im()] [PRÉFIXE])) {
                                 Copier(inbLignes, personne.lhp(), DéclinaisonStyledDoc.stylepp); Espace (inbLignes) ;
                                 if (!personne.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).im()] [PRÉFIXE].isEmpty()) Préfixer(inbLignes, personne.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).im()] [PRÉFIXE]) ;
@@ -95,7 +102,7 @@ public class ConjTableHebib extends ConjTable  {
                     }                                                   // verbe irrégulier
 /*                    nbcons = 0 ;
                     if (déclinaisonChildren.isEmpty()){             // verbe régulier
-                        inbLignes = AjouterLigne(personne.ip(), personne.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(personne.ip(), personne.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                         Copier(inbLignes, personne.lhp(), DéclinaisonStyledDoc.stylepp); Espace(inbLignes) ;
                         Préfixer(inbLignes, personne.pairePS[HBM.Yiqtol.im][PRÉFIXE]) ;
                             Yiqtol() ;
@@ -107,7 +114,7 @@ public class ConjTableHebib extends ConjTable  {
                     for (HBP personne : HBP.values()) {                             // pour ttes les personnes
                         nbcons = 0 ;
                         if (déclinaisonChildren.isEmpty()){             // verbe régulier
-                            inbLignes = AjouterLigne(personne.ip(), personne.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                            inbLignes = AjouterLigne(personne.ip(), personne.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                             Copier(inbLignes, personne.lhp(), DéclinaisonStyledDoc.stylepp); Espace(inbLignes) ;
                             Préfixer(inbLignes, personne.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.Volitif.im()][PRÉFIXE]) ;
                             Suffixer (inbLignes, personne.spiyi(Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is(), Conjugueur.M.ConjugHebib.HBM.Volitif.im())) ;
@@ -118,7 +125,7 @@ public class ConjTableHebib extends ConjTable  {
                 case Cohortatif -> {                                               // Cohortatif
                     nbcons = 0 ;
                     if (déclinaisonChildren.isEmpty()){             // verbe régulier
-                        inbLignes = AjouterLigne(HBP.HB1S.ip(), HBP.HB1S.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(HBP.HB1S.ip(), HBP.HB1S.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                         Copier(inbLignes, HBP.HB1S.lhp(), DéclinaisonStyledDoc.stylepp); Espace(inbLignes) ;
                                     Préfixer(inbLignes, HBP.HB1S.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.Volitif.im()][PRÉFIXE]) ;
                             Yiqtol() ;
@@ -127,7 +134,7 @@ public class ConjTableHebib extends ConjTable  {
                     AjouterTranslittération(inbLignes, hebToLatinTrans) ;
                     nbcons = 0 ;
                     if (déclinaisonChildren.isEmpty()){             // verbe régulier
-                        inbLignes = AjouterLigne(HBP.HB1P.ip(), HBP.HB1P.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(HBP.HB1P.ip(), HBP.HB1P.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                         Copier(inbLignes, HBP.HB1P.lhp(), DéclinaisonStyledDoc.stylepp); Espace(inbLignes) ;
                                     Préfixer(inbLignes, HBP.HB1P.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.Volitif.im()][PRÉFIXE]) ;
                             Yiqtol() ;
@@ -138,7 +145,7 @@ public class ConjTableHebib extends ConjTable  {
                 case Jussif -> {                                               // Jussif
                     nbcons = 0 ;
                     if (déclinaisonChildren.isEmpty()){             // verbe régulier
-                        inbLignes = AjouterLigne(HBP.HB3MS.ip(), HBP.HB3MS.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(HBP.HB3MS.ip(), HBP.HB3MS.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                         Copier(inbLignes, HBP.HB3MS.lhp(), DéclinaisonStyledDoc.stylepp); Espace(inbLignes) ;
                                     Préfixer(inbLignes, HBP.HB3MS.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.Volitif.im()][PRÉFIXE]) ;
                             Yiqtol() ;
@@ -147,7 +154,7 @@ public class ConjTableHebib extends ConjTable  {
                     AjouterTranslittération(inbLignes, hebToLatinTrans) ;
                     nbcons = 0 ;
                     if (déclinaisonChildren.isEmpty()){             // verbe régulier
-                        inbLignes = AjouterLigne(HBP.HB3MP.ip(), HBP.HB3MP.lp(), HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(HBP.HB3MP.ip(), HBP.HB3MP.lp(), Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                         Copier(inbLignes, HBP.HB3MP.lhp(), DéclinaisonStyledDoc.stylepp); Espace(inbLignes) ;
                                     Préfixer(inbLignes, HBP.HB3MP.pairePS[Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.Volitif.im()][PRÉFIXE]) ;
                             Yiqtol() ;
@@ -156,7 +163,7 @@ public class ConjTableHebib extends ConjTable  {
                     AjouterTranslittération(inbLignes, hebToLatinTrans) ;
                 }                                                               // Jussif
                 case InfCons -> {                                               // InfCons
-                        inbLignes = AjouterLigne(0, "", HÉBREU, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(0, "", Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ;
                         for (char c : Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ATTRIBUTVERBE).toCharArray()) {
                             if (Consonne(c)) {                          // le caractère courant est une consonne
                                 nbcons++ ; 
@@ -169,9 +176,8 @@ public class ConjTableHebib extends ConjTable  {
                                     Copier (inbLignes, Character.toString(SHEWA), DéclinaisonStyledDoc.stylesu) ;
                 }            */                                                   // Piel
 
-//             ColumnAjust(1) ;
         } catch (BadLocationException e) {}
-    }                                                                           // updateTextPaneConj
+    }                                                                           // MAJConj
     
     private void CopierIrrégularités () throws BadLocationException {
         for (int i = 0 ; i < déclinaisonChildren.size(); i++) {                  // Pour ttes les déclinaisons
@@ -188,7 +194,7 @@ public class ConjTableHebib extends ConjTable  {
      * 1 insère une ligne ds le tableau de conjugaison "ConjugM.conjTableM.tabLigneConj" et en 1ère colonne "personne" le libellé passé en paramètre
     */
     public void AjouterLigne (String personne, String forme) throws BadLocationException {
-        AjouterPers(inbLignes, ConjugHebib.ETIPERS, HÉBREU, StyleConstants.ALIGN_RIGHT) ; ConjugHebib.ETIPERS[inbLignes] = personne + " : " ; 
+        AjouterPers(inbLignes, ConjugHebib.ETIPERS, Conjugueur.V.JFrameConjugHebib.HÉBREU, StyleConstants.ALIGN_RIGHT) ; ConjugHebib.ETIPERS[inbLignes] = personne + " : " ; 
         switch (personne) {
             case ETI_FR2MS : 
                 Copier (inbLignes, HBPP2MS, DéclinaisonStyledDoc.stylepp) ; Copier(forme, DéclinaisonStyledDoc.stylesu) ; break ;
@@ -303,8 +309,7 @@ public class ConjTableHebib extends ConjTable  {
     }                                                                           // HBP    
     private static final short PRÉFIXE = 0, SUFFIXE = 1, TAILLEPOLICE = 25 ;
     private final static String MATRESLECTIONIS = "יוה", ATTRIBUTVERBE = "infinitif", ETI_FR2MS = "2è. m. s.", ETI_FR2FS = "2è. f. s.", ETI_FR3MS = "3è. m. s.", ETI_FR3FS = "3è. f. s.", HEBIB_TO_LATIN = "Hebrew-Latin", NOMPOLICE = "Times New Roman" ;
-    private static final Font HÉBREU = new Font (NOMPOLICE, Font.PLAIN, TAILLEPOLICE);
     public static final Transliterator hebToLatinTrans = Transliterator.getInstance(HEBIB_TO_LATIN);
     private Conjugueur.C.Conjug contrôleur ;
-    private static final boolean DEBUG = false;    
+    private static final boolean DEBUG = false ;    
 }
