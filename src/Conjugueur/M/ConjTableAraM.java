@@ -89,7 +89,7 @@ public class ConjTableAraM extends ConjTable  {
                 }                                                               // Indicatif, Subjonctif
                 case Impératif -> {                                                     // Impératif
                     for ( ARP personne :  new ARP[]{ARP.AR2MS, ARP.AR2FS, ARP.AM2D, ARP.AR2MP, ARP.AR2FP}) {               // pour ttes les personnes
-                        inbLignes = AjouterLigne(personne.ip(), personne.lp(), ARABE, StyleConstants.ALIGN_RIGHT) ;
+                        inbLignes = AjouterLigne(personne.lp(), ARABE, StyleConstants.ALIGN_RIGHT) ;
                         if (!personne.ppiyi(Conjugueur.M.Conjug.M.i2M(contrôleur.model.getMode()), Conjugueur.M.ConjugAraM.ART.i2T(contrôleur.model.getTemps())).isEmpty())  Préfixer(personne.ppiyi(Conjugueur.M.Conjug.M.i2M(contrôleur.model.getMode()), Conjugueur.M.ConjugAraM.ART.i2T(contrôleur.model.getTemps()))) ;
                         CopieRacine(ConjugAraM.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ConjugAraM.ATTRIBUT)) ; 
                         if (!personne.spip(Conjugueur.M.Conjug.M.i2M(contrôleur.model.getMode()), Conjugueur.M.ConjugAraM.ART.i2T(contrôleur.model.getTemps())).isEmpty())   Suffixer (ConjTable.inbLignes, personne.spip(Conjugueur.M.Conjug.M.i2M(contrôleur.model.getMode()), Conjugueur.M.ConjugAraM.ART.i2T(contrôleur.model.getTemps()))) ;
