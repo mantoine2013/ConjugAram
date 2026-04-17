@@ -67,13 +67,17 @@ public class ConjTable extends AbstractTableModel {
     }                                                                                       // getValueAt
 
     /**
-     * Fonction : Ajoute une personne spécifiée par l'indice "ipersonne" : 1, 2, ....Algorithme : insère une ligne ds le tableau de conjugaison "ConjTablemodele.tab" et en 1ère colonne "personne" le libellé passé en paramètre
+     * Fonction : Ajoute une personne spécifiée par l'indice "ipersonne" : 1, 2, ....
+     * Fonctions appelantes : Conjugueur.M.ConjTableHebib::MAJConj, ConjTableItal::MAJConj
+     * Algorithme : insère une ligne ds le tableau de conjugaison "ConjTablemodele.tab" et en 1ère colonne "personne" le libellé passé en paramètre
      * @param alignement
+     * @param lpers libellé de personne "1è. s.", "2è. m. s."
+     * @param PoliceDéclinaison police 2è col
      * @return 
     */
-    public int AjouterLigne(String etipers, Font FontUtilisateur, int alignement) {
-        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterLigne, etipers = " + etipers+", FontUtilisateur.getFontName() = " + FontUtilisateur.getFontName()) ; }
-        tab.add(new LigneConj(etipers, FontUtilisateur, alignement)) ;
+    public int AjouterLigne(String lpers, Font PoliceDéclinaison, int alignement) {
+        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterLigne, lpers = " + lpers+", PoliceDéclinaison.getFontName() = " + PoliceDéclinaison.getFontName()) ; }
+        tab.add(new LigneConj(lpers, PoliceDéclinaison, alignement)) ;
         inbLignes++ ;
        return tab.size() - 1 ;
     }                                                                           // AjouterLigne
@@ -81,7 +85,6 @@ public class ConjTable extends AbstractTableModel {
     /**
      * Fonction : Ajoute une personne spécifiée par l'indice "ipersonne" : 1, 2, ....
      * Algorithme : insère une ligne ds le tableau de conjugaison "ConjTablemodele.tab" et en 1ère colonne "personne" le libellé passé en paramètre
-     * Fction appelante : ConjTableAraM::MAJ, Conjugueur.M.ConjTableRu.MAJConj
      * @param ip    indice ds la table "tab
      * @param lpers libellé de personne "1è. s.", "2è. m. s."
      * @param PoliceDéclinaison police 2è col
@@ -90,13 +93,11 @@ public class ConjTable extends AbstractTableModel {
     */
     public final int AjouterLigne (int ip, String lpers, Font PoliceDéclinaison, int alignement){
         if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::AjouterLigne, ip = " + ip +", lpers = " + lpers+", PoliceDéclinaison.getFontName() = "+PoliceDéclinaison.getFontName()) ; }
-       tab.add(new LigneConj(lpers, PoliceDéclinaison, alignement)) ;
-        inbLignes++ ;
-       return tab.size() - 1 ;
+        return AjouterLigne(lpers, PoliceDéclinaison, alignement) ;
     }                                                                            // AjouterLigne    
-    public final void AjouterPers (int ip, String[] etipers, Font FontUtilisateur, int alignement){
-//        if (DEBUG) System.out.println("Conjugueur.M.ConjTable::AjouterPers, etipers[ip] = " + etipers[ip]+", FontUtilisateur.getFontName() = "+FontUtilisateur.getFontName()) ;
-       tab.add(new LigneConj(etipers[ip], FontUtilisateur, alignement)) ;
+    public final void AjouterPers (int ip, String[] lpers, Font PoliceDéclinaison, int alignement){
+//        if (DEBUG) System.out.println("Conjugueur.M.ConjTable::AjouterPers, lpers[ip] = " + lpers[ip]+", PoliceDéclinaison.getFontName() = "+PoliceDéclinaison.getFontName()) ;
+       tab.add(new LigneConj(lpers[ip], PoliceDéclinaison, alignement)) ;
     }                                                                            // AjouterPers
 
     /**
@@ -149,12 +150,12 @@ public class ConjTable extends AbstractTableModel {
     public void Copier (int ip, String caractères, Style style) throws BadLocationException {
         if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::Copier, ip = " + ip + ", caractères = " + caractères + ", tab.size() = " + tab.size()) ; }
 //       if (DEBUG) for (char c : caractères.toCharArray()) new PrintWriter(System.out,true).printf("c = %c , unicode = %x ", c, (int)c) ;
-        if (!(caractères.isEmpty()||caractères.isBlank()||(caractères.charAt(0) == '\u0000'))) tab.get(ip).déclinaison.insertString(tab.get(ip).déclinaison.getLength(), caractères, style) ;
+        if (!(caractères.isEmpty()||caractères.isBlank()||(caractères.charAt(0) == '\u0000'))) { tab.get(ip).déclinaison.insertString(tab.get(ip).déclinaison.getLength(), caractères, style) ; }
     }                                                                           // Copier
 
     public void Copier (String caractères, Style style) throws BadLocationException {
         if (DEBUG) { System.out.println("Conjugueur.M.ConjTable::Copier, inbLignes = " + inbLignes + ", caractères = " + caractères + ", tab.size() = " + tab.size()) ; }
-        if (!(caractères.isEmpty()||caractères.isBlank()||(caractères.charAt(0) == '\u0000'))) tab.get(inbLignes).déclinaison.insertString(tab.get(inbLignes).déclinaison.getLength(), caractères, DéclinaisonStyledDoc.styledéclinaison) ;
+        if (!(caractères.isEmpty()||caractères.isBlank()||(caractères.charAt(0) == '\u0000'))) { tab.get(inbLignes).déclinaison.insertString(tab.get(inbLignes).déclinaison.getLength(), caractères, style) ; }
     }                                                                           // Copier
 
     /**
