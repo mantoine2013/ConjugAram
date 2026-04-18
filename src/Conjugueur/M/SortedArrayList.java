@@ -36,6 +36,7 @@ public class SortedArrayList<T> extends ArrayList<org.jdom2.Element> {
      * @param élément
      * @param elerac 
      * Fctions appelantes : Conjugueur.M.ModèleMenu1::ModèleMenu1
+     * @param langue
      */
     @SuppressWarnings("unchecked")
     public void insertSorted(org.jdom2.Element élément, String elerac, String langue) {
@@ -51,11 +52,11 @@ public class SortedArrayList<T> extends ArrayList<org.jdom2.Element> {
      * @param élément
      * @param atimp 
      * Fctions appelantes : Conjugueur.M.ModèleMenu1::ModèleMenu1
+     * @param langue
      */
     @SuppressWarnings("unchecked")
     public void insertSorted(org.jdom2.Element élément, String atimp, String atpe, String langue) {
-        if (DEBUG) {
-            System.out.println ("Conjugueur.M.SortedArrayList::insertSorted, élément.getAttributeValue(" + (élément.getAttributeValue(atimp) != null?atimp:atpe) + ") = " + (élément.getAttributeValue(atimp) != null?élément.getAttributeValue(atimp):élément.getAttributeValue(atpe)) + ", langue = " + langue + ", size = " + size()) ; }
+        if (DEBUG) { System.out.println ("Conjugueur.M.SortedArrayList::insertSorted, élément.getAttributeValue(" + (élément.getAttributeValue(atimp) != null?atimp:atpe) + ") = " + (élément.getAttributeValue(atimp) != null?élément.getAttributeValue(atimp):élément.getAttributeValue(atpe)) + ", langue = " + langue + ", size = " + size()) ; }
         add(élément);
         for (int i = size() - 1; i > 0 && Collator.getInstance(new Locale(langue)).compare((élément.getAttributeValue(atimp) != null?élément.getAttributeValue(atimp):élément.getAttributeValue(atpe)), (get(i - 1).getAttributeValue(atimp) != null?get(i - 1).getAttributeValue(atimp):get(i - 1).getAttributeValue(atpe))) < 0; i--) {
             Collections.swap(this, i, i - 1);
