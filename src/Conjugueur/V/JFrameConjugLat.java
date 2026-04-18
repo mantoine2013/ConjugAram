@@ -21,10 +21,10 @@ public class JFrameConjugLat  extends JFrameConjDouble implements ActionListener
         if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugLat::JFrameConjugLat" + ", Mode = " + Conjugueur.M.ConjugLat.M.i2M(contrôleur.model.getMode()).toString()) ; }
         frame.setTitle("Conjugueur Latin V0.8");
         largeur = LARGEUR ; hauteur = HAUTEUR ; 
-        jCBAutMot = new JComboBox(Conjugueur.M.ConjugLat.cbAutreMotM);
-        jPanelAutreMot.add(jCBAutMot) ;  jPanelAutreMot.add(jLabelDéclinaison) ; jCBAutMot.setActionCommand(AUTREMOT) ; jCBAutMot.setSelectedIndex(contrôleur.model.getIAutreMot()) ; jCBAutMot.addActionListener(this) ;
-        jPanelNb.add(jComboBoxNb) ;     jPanelDroit.add(jPanelNb, java.awt.BorderLayout.EAST);    jComboBoxNb.setActionCommand(NOMBRE) ; jComboBoxNb.setSelectedIndex(contrôleur.model.getNb()) ; jComboBoxNb.addActionListener(this); jCBAutMot.setRenderer(new ComboBoxVerbeRenderer(LATIN, ComponentOrientation.LEFT_TO_RIGHT, Conjugueur.M.ConjugLat.ATTRIBUT)); 
-        jTabDecl = new JTableau(Conjugueur.M.ConjugLat.declTableM) ;
+        jCBAutMot = new JComboBox(Conjugueur.M.ConjugLat.cbAutreMotM) ; jCBAutMot.setActionCommand(AUTREMOT) ; jCBAutMot.setSelectedIndex(contrôleur.model.getIAutreMot()) ; jCBAutMot.addActionListener(this) ; jCBAutMot.setRenderer(new ComboBoxVerbeRenderer(LATIN, ComponentOrientation.LEFT_TO_RIGHT, Conjugueur.M.ConjugLat.ATTRIBUT)) ;
+        jPanelAutreMot.add(jCBAutMot) ;  jPanelAutreMot.add(jLabelDéclinaison) ;   
+        jPanelNb.add(jComboBoxNb) ;     jPanelDroit.add(jPanelNb, java.awt.BorderLayout.EAST);    jComboBoxNb.setActionCommand(NOMBRE) ; jComboBoxNb.setSelectedIndex(contrôleur.model.getNb()) ; jComboBoxNb.addActionListener(this);  
+        jTabDecl = new JTableau(Conjugueur.M.Conjug.declTableM) ;
         jTabDecl.setDefaultRenderer(DéclinaisonStyledDoc.class, new DéclinaisonCellRenderer(LATIN, ComponentOrientation.LEFT_TO_RIGHT));
         jTabDecl.setDefaultRenderer(String.class, new TextPaneRenderer(FRANÇAIS, ComponentOrientation.LEFT_TO_RIGHT));
         jTabDecl.getColumnModel().getColumn(2).setPreferredWidth(0) ;        
