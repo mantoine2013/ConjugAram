@@ -13,7 +13,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.text.BadLocationException;
 
-public class JFrameConjugHebib extends JFrameConjug implements ActionListener {
+public class JFrameConjugHebib extends JFrameConjDouble implements ActionListener {
 
     /**
      * Fction appelante : Conjugueur.C.ConjugHebib::ConjugHebib
@@ -26,15 +26,16 @@ public class JFrameConjugHebib extends JFrameConjug implements ActionListener {
         if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugHebib::JFrameConjugHebib, contrôleur = "+ contrôleur) ; }
         frame.setTitle("Conjugueur hébreu biblique V0.8");
         largeur = LARGEUR ; hauteur = HAUTEUR ;
-        jPanelAutreMot.add(jCBAutMot) ; jPanelDroit.add(jPanelAutreMot, java.awt.BorderLayout.NORTH) ; jCBAutMot.setActionCommand(AUTREMOT) ; jCBAutMot.setSelectedIndex(contrôleur.model.getIAutreMot()) ; jCBAutMot.addActionListener(this) ;
+        jCBAutMot = new JComboBox<>(Conjugueur.M.ConjugHebib.cbAutreMotM) ; jCBAutMot.setActionCommand(AUTREMOT) ; jCBAutMot.setSelectedIndex(contrôleur.model.getIAutreMot()) ; jCBAutMot.addActionListener(this) ; jCBAutMot.setRenderer(new ComboBoxVerbeRenderer(HÉBREU, ComponentOrientation.RIGHT_TO_LEFT, Conjugueur.M.ConjugHebib.ATTRIBUTMOT)) ;
+        jPanelAutreMot.add(jCBAutMot) ;  
         jTabDecl = new JTableau(Conjugueur.M.Conjug.declTableM) ;
-        jTabDecl.setDefaultRenderer(DéclinaisonStyledDoc.class, new DéclinaisonCellRenderer(HÉBREU, ComponentOrientation.LEFT_TO_RIGHT));
+        jTabDecl.setDefaultRenderer(DéclinaisonStyledDoc.class, new DéclinaisonCellRenderer(HÉBREU, ComponentOrientation.RIGHT_TO_LEFT));
         jTabDecl.setDefaultRenderer(String.class, new TextPaneRenderer(FRANÇAIS, ComponentOrientation.LEFT_TO_RIGHT));
         jTabDecl.getColumnModel().getColumn(2).setPreferredWidth(0) ;        
         jPanelDroit.add(jTabDecl, java.awt.BorderLayout.SOUTH);
         jPanelMode.add(jCBMode) ; jPanelMode.setPreferredSize(new Dimension(jPanelMode.getWidth()/2, jPanelMode.getHeight()*2)); jPanelGauche.add(jPanelMode, java.awt.BorderLayout.CENTER) ; jCBMode.setSelectedIndex(contrôleur.model.getMode()) ;              jCBMode.setActionCommand(MODE); jCBMode.addActionListener(this);
         jPanelSchème.add(jCBSchème) ; /* jPanelSchème.setPreferredSize(new Dimension(LARGEURPANNEAU, HAUTEURPANNEAU));*/ jPanelSchème.add(jLabelVoix) ; jPanelSchème.add(JLabelForme) ; jPanelGauche.add(jPanelSchème, java.awt.BorderLayout.EAST) ; jCBSchème.setSelectedIndex(contrôleur.model.getSchème()); jCBSchème.setActionCommand(SCHEME) ; jCBSchème.addActionListener(this);                                             jCBSchème.setActionCommand(SCHEME) ;jCBSchème.addActionListener(this);       
-        jCBVerbe = new JComboBox<>(Conjugueur.M.ConjugHebib.cbVerbeM) ; jCBVerbe.setSelectedIndex(contrôleur.model.getIndVerbe()) ;   jCBVerbe.addActionListener(this) ;        jCBVerbe.setActionCommand(VERBE) ; jCBVerbe.setFont(HÉBREU) ; jCBVerbe.setRenderer(new ComboBoxVerbeRenderer(HÉBREU, ComponentOrientation.RIGHT_TO_LEFT, ATTRIBUTVERBE)) ;
+        jCBVerbe = new JComboBox<>(Conjugueur.M.ConjugHebib.cbVerbeM) ; jCBVerbe.setSelectedIndex(contrôleur.model.getIndVerbe()) ;   jCBVerbe.addActionListener(this) ;        jCBVerbe.setActionCommand(VERBE) ; jCBVerbe.setFont(HÉBREU) ; jCBVerbe.setRenderer(new ComboBoxVerbeRenderer(HÉBREU, ComponentOrientation.RIGHT_TO_LEFT, Conjugueur.M.ConjugHebib.ATTRIBUTVERBE)) ;
         jPanelVerbe.add(jCBVerbe) ; jPanelGauche.add(jPanelVerbe, java.awt.BorderLayout.NORTH) ;   jPanelVerbe.add(jButExport) ; jButExport.setActionCommand(EXPORT); jButExport.addActionListener(this) ;        
         jTabConj = new JTableau(Conjugueur.M.Conjug.conjTableM) ;
         jTabConj.getColumnModel().getColumn(0).setCellRenderer(new PersonneCellRenderer(FRANÇAIS)) ;
@@ -111,10 +112,9 @@ public class JFrameConjugHebib extends JFrameConjug implements ActionListener {
     private final JComboBox<Conjugueur.M.ConjugHebib.HBM> jCBMode = new JComboBox<>(Conjugueur.M.ConjugHebib.cModelModes);
     private final JComboBox<Conjugueur.M.ConjugHebib.HBS> jCBSchème = new JComboBox<>(Conjugueur.M.ConjugHebib.cModelSchème) ;
     @SuppressWarnings("unchecked")
-    private final JComboBox<String> jCBAutMot = new JComboBox<>(Conjugueur.M.ConjugHebib.comboBoxAutreMotM);
     private final  JComboBox<Conjugueur.M.ConjugGrecA.GAN> jCBNb = new JComboBox<>(new DefaultComboBoxModel<>(Conjugueur.M.ConjugGrecA.GAN.values())) ;
     public static final short HAUTEUR = 550, LARGEUR = 1000, HAUTEURPANNEAU = 20, LARGEURPANNEAU = 10, PRÉFIXE = 0, SUFFIXE = 1 ;
-    public final static String  BEGADKEPAT = "בגדכפת", GUTTURALES = "אהחע", MATRESLECTIONIS = "יוה", ATTRIBUTVERBE = "infinitif", BALISÉNTRÉE = "verhb", ETI_FR2MS = "2è. m. s.", ETI_FR2FS = "2è. f. s.", ETI_FR3MS = "3è. m. s.", ETI_FR3FS = "3è. f. s.", HEBIB_TO_LATIN = "Hebrew-Latin", NOMPOLICE = "Times New Roman", XMLSOURCE = "ConjugSemi.xml" ;
+    public final static String  BEGADKEPAT = "בגדכפת", GUTTURALES = "אהחע", MATRESLECTIONIS = "יוה", BALISÉNTRÉE = "verhb", ETI_FR2MS = "2è. m. s.", ETI_FR2FS = "2è. f. s.", ETI_FR3MS = "3è. m. s.", ETI_FR3FS = "3è. f. s.", HEBIB_TO_LATIN = "Hebrew-Latin", NOMPOLICE = "Times New Roman", XMLSOURCE = "ConjugSemi.xml" ;
     public static  final Transliterator hebToLatinTrans = Transliterator.getInstance(HEBIB_TO_LATIN);
     public static final Font HÉBREU = new Font (NOMPOLICE, Font.PLAIN, TAILLEPOLICE) ;
 
