@@ -66,6 +66,7 @@ public class ModèleMenu1 extends AbstractListModel implements ComboBoxModel {
      *      3 Prendre ts les éléments fils
      *      4 Pour ts ces fils faire
      *      4.1 si le fils a l'attribut "imperfectif" faire
+     * @param langue
      */
     public ModèleMenu1(String xmls, String élément, String atimp, String atpe, String langue) {
         super();
@@ -125,7 +126,7 @@ public class ModèleMenu1 extends AbstractListModel implements ComboBoxModel {
       }
     
       /**
-       * Fction appelante Conjugueur.V.JFrameConjugLat::JFrameConjugLat
+       * Fction appelante Conjugueur.V.JFrameConjugLat::JFrameConjugLat, JFrameConjugHebib::JFrameConjugHebib
        * @param anItem 
        */
       @Override
