@@ -13,7 +13,7 @@ public final class ConjugHebib  {
             Conjugueur.M.ConjugHebib modèle = new Conjugueur.M.ConjugHebib(
                 Conjugueur.M.ConjugHebib.HBM.Qatal.im(),                    // mode + temps
                 Conjugueur.M.ConjugHebib.HBS.Qal.is(),                     // shème
-                10/*Conjugueur.M.ConjugHebib.cbVerbeM.getSize()/2*/
+                5/*Conjugueur.M.ConjugHebib.cbVerbeM.getSize()/2*/
             );
             Conjugueur.C.ConjugHebib contrôleur = new Conjugueur.C.ConjugHebib(modèle);
             contrôleur.displayVues();
@@ -22,5 +22,5 @@ public final class ConjugHebib  {
     public static String defargs[] =  {"Résultat"} ;    
     public final static String[] ETIPERS = new String[12] ;
 
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = true ;
 }                                                                                // ConjugHebib
