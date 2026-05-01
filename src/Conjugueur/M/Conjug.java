@@ -55,7 +55,9 @@ public class Conjug {
     public short    getMode() {  return mode;  }
     public short    getNb() { return nb ;  } 
     public short    getNConj()  { return indNC ;  }
-    public short    getSchème() { return schème ;  }
+    public short    getSchème() {
+       if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::getSchème, schème = " + schème) ; }
+        return schème ;  }
     public short    getTemps() {   return temps ;   }
     public short    getThème() {  return thème ; }
     public int      getVolume() {  return 0 ; /* provisoire*/    }
@@ -108,6 +110,9 @@ public class Conjug {
         this.nb = indNb ;
         firePChanged("D");
     }   
+    /**
+     * Fction appelante : Conjugueur.M.ConjugHebib::ConjugHebib
+     */
     public void setSchème(short schème) {
        if (DEBUG) { System.out.println ("Conjugueur.M.Conjug::setSchème, schème = "+ schème) ; }
         this.schème = schème;
