@@ -2,13 +2,11 @@
  * @author MichelANTOINE@hotmail.com
  */
 package Conjugueur.M;
-import Conjugueur.V.*;
 import Conjugueur.ConjugHebib;
-import Conjugueur.V.DéclinaisonStyledDoc;
+import Conjugueur.V.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.StyleConstants;
 import com.ibm.icu.text.Transliterator;
-import java.awt.Font;
 
 public class ConjTableHebib extends ConjTable  {
 
@@ -39,7 +37,7 @@ public class ConjTableHebib extends ConjTable  {
      */
     @Override
     public void MAJConj(Conjugueur.C.Conjug contrôleur) {
-        if (DEBUG) { System.out.println ("Conjugueur.M.ConjTableHebib::MAJConj, Schème = " + Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()) + ", selectedIndVerbe = " + Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ATTRIBUTVERBE) + ", Mode = " + Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).toString()) ; }
+        if (DEBUG) { System.out.println ("Conjugueur.M.ConjTableHebib::MAJConj, schème = " + Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()) + ", selectedIndVerbe = " + Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getAttributeValue(ATTRIBUTVERBE) + ", Mode = " + Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).toString()) ; }
         this.contrôleur = contrôleur ; 
         switch (Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème())) {                                           // Schème
             case Qal -> { JFrameConjug.jLabelVoix.setText("Voix active"); JFrameConjugHebib.JLabelForme.setText("Forme simple") ;  }                                                               // Qal
@@ -64,7 +62,7 @@ public class ConjTableHebib extends ConjTable  {
                                     if (Consonne(c)) {                                // le caractère courant est une consonne
                                         nbcons++ ;
                                         Copier (String.valueOf(c), DéclinaisonStyledDoc.stylera) ;
-                                        Copier (Character.toString(Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).accents [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
+                                        if (nbcons <= Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).accents.length) Copier (Character.toString(Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).accents [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
 //                                        Copier (Character.toString(personne.accents [Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.getMode().im()] [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
                                     }                                                 // le caractère courant était une consonne
                                 }                                                    // pour ts les caractères
@@ -88,7 +86,7 @@ public class ConjTableHebib extends ConjTable  {
                                     if (Consonne(c)) {                                // le caractère courant est une consonne
                                         nbcons++ ;
                                         Copier (inbLignes, String.valueOf(c), DéclinaisonStyledDoc.stylera) ;
-                                        Copier (inbLignes, Character.toString(Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).accents [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
+                                        if (nbcons <= Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).accents.length) Copier (inbLignes, Character.toString(Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).accents [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
                                         Copier (inbLignes, Character.toString(personne.accents [Conjugueur.M.ConjugHebib.HBS.i2S(contrôleur.model.getSchème()).is()][Conjugueur.M.ConjugHebib.HBM.i2M(contrôleur.model.getMode()).im()] [(short)(nbcons-1)]), DéclinaisonStyledDoc.stylesu) ;
                                     }                                                 // le caractère courant était une consonne
                                 }                                                    // pour ts les caractères
