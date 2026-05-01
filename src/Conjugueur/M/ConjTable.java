@@ -239,7 +239,7 @@ public class ConjTable extends AbstractTableModel {
      * @param ip indice de personne 0, 1, 2, 3, 4, 5
      */      
     public void Préfixer (int ip, String préfixe) throws BadLocationException {
-        if (DEBUG) System.out.println("Conjugueur.M.ConjTable:Préfixer, ip = " + ip + ", préfixe = " + préfixe) ;
+        if (DEBUG) { System.out.println("Conjugueur.M.ConjTable:Préfixer, ip = " + ip + ", préfixe = " + préfixe) ; }
         tab.get(ip).déclinaison.insertString(tab.get(ip).déclinaison.getLength(), préfixe, DéclinaisonStyledDoc.stylepr) ;   
     }                                                                            // Préfixer
    
