@@ -54,5 +54,5 @@ public class ConjugGrecA extends JPanel  {
         public short ig() { return ig; }            
     }              */                                                             // GAG
 
-    public static final boolean DEBUG = false;
+    private static final boolean DEBUG = false ;
 }                                                                                // ConjugGrecA
