@@ -59,11 +59,10 @@ public class ConjugHebib extends Conjug {
         }                                                                       //findByName
     }                                                                           // HBM
     public final static String ATTRIBUTMOT="forme", ATTRIBUTVERBE = "infinitif", BALISÉNTRÉE = "verhb", BALISAUTREMOT = "authbmot", LANGUE = "heb", NOMPOLICE = "Times New Roman", XMLSOURCE = "ConjugSemi.xml" ;
-
     public static final DefaultComboBoxModel<HBM> cModelModes = new DefaultComboBoxModel<>(HBM.values()) ; 
     public static final DefaultComboBoxModel<HBS> cModelSchème = new DefaultComboBoxModel<>(HBS.values()) ; 
+    public static final ModèleMenu1 cbAutreMotM = new ModèleMenu1(XMLSOURCE, BALISAUTREMOT, ATTRIBUTMOT, LANGUE) ;
     public static final ModèleMenu1 cbVerbeM = new ModèleMenu1(XMLSOURCE, BALISÉNTRÉE, ATTRIBUTVERBE, LANGUE) ; 
-    public static final ModèleMenu1 comboBoxAutreMotM = new ModèleMenu1(XMLSOURCE, BALISAUTREMOT, ATTRIBUTMOT, LANGUE) ;
     private static final boolean DEBUG = false ;    
 }
 
