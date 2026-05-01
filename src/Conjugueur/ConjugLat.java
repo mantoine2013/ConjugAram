@@ -25,9 +25,9 @@ public class ConjugLat   {
         if (DEBUG) { System.out.println("Conjugueur.ConjugLat::main") ; }
         Conjugueur.M.ConjugLat modèle = new Conjugueur.M.ConjugLat(
                    Conjug.M.Indicatif.im(),                                     // mode
-                    Conjugueur.M.ConjugLat.LAT.Présent.it(),                  // temps
+                    Conjugueur.M.ConjugLat.LAT.Imparfait.it(),                  // temps
                     Conjugueur.M.ConjugLat.V.Active.iv(),                       // voix
-                    6   /*Conjugueur.M.ConjugLat.cbVerbeM.getSize()/2*/,                                        // iVerbe
+                    8   /*Conjugueur.M.ConjugLat.cbVerbeM.getSize()/2*/,                                        // iVerbe
                     60  /*Conjugueur.M.ConjugLat.cbAutreMotM.getSize()/2*/,
                 Conjugueur.M.Conjug.N.Singulier.in()
         );
