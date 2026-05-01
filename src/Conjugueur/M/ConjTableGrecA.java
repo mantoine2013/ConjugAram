@@ -2,7 +2,6 @@
  * @author MichelANTOINE@hotmail.com
  */
 package Conjugueur.M;
-
 import com.ibm.icu.text.Transliterator;
 import Conjugueur.ConjugGrecA;
 import Conjugueur.V.*;
