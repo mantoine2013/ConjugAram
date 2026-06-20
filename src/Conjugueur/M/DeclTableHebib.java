@@ -2,8 +2,6 @@
  * @author MichelANTOINE@hotmail.com
  */
 package Conjugueur.M;
-
-import static Conjugueur.M.ConjTable.inbLignes;
 import static Conjugueur.M.ConjTableHebib.hebToLatinTrans;
 import Conjugueur.V.JFrameConjugLat;
 import Conjugueur.V.DéclinaisonStyledDoc;
@@ -16,18 +14,17 @@ public class DeclTableHebib extends ConjTable {
     
     /**
      * 
-     * @throws BadLocationException
      * Fction appelante : Conjugueur.Vue.JFrameConjugHebib
      */
     @Override
     public void MAJDecl(Conjugueur.C.Conjug contrôleur) {
-        if (DEBUG) { System.out.println ("Conjugueur.M.DeclTableHebib::MAJDecl, Mot = "+Conjugueur.M.ConjugHebib.comboBoxAutreMotM.get(contrôleur.model.getIAutreMot()).getAttributeValue(Conjugueur.M.ConjugHebib.ATTRIBUTMOT)) ;   }
+        if (DEBUG) { System.out.println ("Conjugueur.M.DeclTableHebib::MAJDecl, Mot = "+Conjugueur.M.ConjugHebib.cbAutreMotM.get(contrôleur.model.getIAutreMot()).getAttributeValue(Conjugueur.M.ConjugHebib.ATTRIBUTMOT)) ;   }
         vider();                                                 
-        déclinaisonChildren = Conjugueur.M.ConjugHebib.comboBoxAutreMotM.get(contrôleur.model.getIAutreMot()).getChildren("déclinaison");//        adjustJTableRowSizes(ConjugGrecA.jTabDecl);
+        déclinaisonChildren = Conjugueur.M.ConjugHebib.cbAutreMotM.get(contrôleur.model.getIAutreMot()).getChildren("déclinaison");//        adjustJTableRowSizes(ConjugGrecA.jTabDecl);
         if (déclinaisonChildren.isEmpty()) {                    // mot régulier
                 for (ConjTableHebib.HBN decl : ConjTableHebib.HBN.values()) {                             // pour ttes les personnes
                     inbLignes = AjouterLigne(decl.in(), decl.ln(), JFrameConjugLat.LATIN, StyleConstants.ALIGN_RIGHT) ;
-                    for (char c : Conjugueur.M.ConjugHebib.comboBoxAutreMotM.get(contrôleur.model.getIAutreMot()).getAttributeValue(Conjugueur.M.ConjugHebib.ATTRIBUTMOT).toCharArray()) {
+                    for (char c : Conjugueur.M.ConjugHebib.cbAutreMotM.get(contrôleur.model.getIAutreMot()).getAttributeValue(Conjugueur.M.ConjugHebib.ATTRIBUTMOT).toCharArray()) {
                         try {
                             Copier (String.valueOf(c), DéclinaisonStyledDoc.stylera) ;
                         } catch (BadLocationException ex) {

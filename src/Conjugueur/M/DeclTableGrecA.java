@@ -5,7 +5,6 @@ package Conjugueur.M;
 import Conjugueur.ConjugGrecA;
 import Conjugueur.V.DéclinaisonStyledDoc;
 import static Conjugueur.V.JFrameConjugGrecA.LATIN;
-import static Conjugueur.M.ConjTable.inbLignes;
 import com.ibm.icu.text.Transliterator;
 import java.util.StringTokenizer;
 import java.util.logging.Level;

@@ -1,7 +1,7 @@
 /* Programme principal du conjugueur ancien français
  * Nécessite les *.jar icu4j-67_1.jar et jdom2-2.0.6.jar polices SyrCOMEdessa.otf, SyrCOMJerusalem.otf
  * @author MichelANTOINE@hotmail.com
-*/
+ */
 package Conjugueur;
 import Conjugueur.M.*;
 

@@ -26,7 +26,7 @@ public class DeclTableRu  extends ConjTable {
             if (déclinaisonChildren.isEmpty()) {                    // mot régulier
                 itype = DéterminerDéclinaison(contrôleur) ; 
                 for (var cas : RUC.values()) {
-                    inbLignes = AjouterLigne(cas.ic(), cas.lc(), JFrameConjugAnFr.FRANÇAIS, StyleConstants.ALIGN_RIGHT) ;
+                    inbLignes = AjouterLigne(cas.lc(), JFrameConjugAnFr.FRANÇAIS, StyleConstants.ALIGN_RIGHT) ;
                     for (char c : (forme[RUF.Racine.ifo()]).toCharArray()){
                         Copier (String.valueOf(c), DéclinaisonStyledDoc.stylera) ;
                     }                                                    // pour ts les caractères

@@ -66,7 +66,7 @@ public class JFrameConjugHebib extends JFrameConjDouble implements ActionListene
             }
 
            
-            case SCHEME -> { ItemizeComboSchèmes(getContrôleur()) ;}
+            case SCHEME -> {  ItemizeComboSchèmes(getContrôleur()) ;}
         }        
         Conjugueur.M.ConjugHebib.conjTableM.MAJConj(getContrôleur());    
     }
@@ -77,15 +77,21 @@ public class JFrameConjugHebib extends JFrameConjDouble implements ActionListene
 
     /**
      * Fonction : Inhibe les items de JFrameConjugHebib.jCBSchèmes qui n'ont aucun usage
+     * Algorithme :
+     * 1 supprimer ts les items 
+     * 2 positionner le schème à -1
+     * 3 Pour ts les usages faire
      */
     private void ItemizeComboSchèmes (Conjugueur.C.Conjug contrôleur) { 
-        if (DEBUG) System.out.println("ConjugHebib:ItemizeComboSchèmes") ;
+        if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugHebib:ItemizeComboSchèmes") ; }
         jCBSchème.removeActionListener(this);
         jCBSchème.removeAllItems();
         contrôleur.model.setSchème((short)-1) ;
         java.util.List<org.jdom2.Element>    usageChildren = Conjugueur.M.ConjugHebib.cbVerbeM.get(contrôleur.model.getIndVerbe()).getChildren("usage");
         for (org.jdom2.Element usage:usageChildren) {                           // Pour ttes les usages
+            if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugHebib:ItemizeComboSchèmes") ; }
             for (Conjugueur.M.ConjugHebib.HBS schème : Conjugueur.M.ConjugHebib.HBS.values()) {                                       // Pour ts les schèmes
+                if (DEBUG) { System.out.println("Conjugueur.V.JFrameConjugHebib:ItemizeComboSchèmes, schème = " + schème.toString()) ; }
                 if (usage.getAttributeValue("schème").equals(schème.toString())){
                     jCBSchème.addItem(schème); 
                     if (contrôleur.model.getSchème() == (short)-1) {contrôleur.model.setSchème(schème.is()) ; 
