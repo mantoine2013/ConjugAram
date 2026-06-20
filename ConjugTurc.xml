@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lexique    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='ConjugAraM.xsd'>
+
+    <verbturc infinitif="almak"><usage>prendre</usage></verbturc>
+    <verbturc infinitif="gormek"><usage>voir</usage></verbturc>
+    <verbturc infinitif="konusmak"><usage>parler</usage></verbturc>
+    <verbturc infinitif="vermek"><usage>donner</usage></verbturc>
+    <autremot forme="at"><usage>cheval</usage></autremot>
+</lexique>
